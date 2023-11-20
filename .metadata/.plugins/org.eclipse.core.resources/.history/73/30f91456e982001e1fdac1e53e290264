@@ -1,0 +1,51 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For02 {
+
+	public static void main(String[] args) {
+		// leer una cadena de texto // Fin; para acabar
+		Scanner input = new Scanner (System.in);
+		 String cadena;
+		 int contadorVocal=0;
+		 int contadorTotal=0;
+		 String cadenaTotal="";
+		
+		do {
+			System.out.println("Introduce una cadena texto");
+			cadena = input.nextLine() .toLowerCase();
+			
+			//voy sumando la cantidad de caracteres de la cadena
+			//acumulador
+			
+			contadorTotal = contadorTotal+cadena.length();
+			//recorro cada cadena leida en buscar de vocales
+			
+			for (int i=0; i<cadena.length(); i++) {
+				
+				// cadena.charAt(0) -> el primero
+				// cadena.charAt(1) -> el segundo ...
+				char letra = cadena.charAt(i);
+				
+				if (letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u'); { // buscara las vocales
+					contadorVocal++; // acomulara las vocales
+				}
+				
+			}
+			// concateno la cadena leida
+			cadenaTotal = cadenaTotal+cadena;
+
+			
+		} while (!cadena.equals("fin"));
+		//declaro todo
+		
+		System.out.println("El total de vocales es "+contadorVocal);
+		System.out.println("La cadena total es: "+cadenaTotal);
+		System.out.println("El porcentaje de vocales es "+((double)contadorVocal/contadorTotal*100)+"%");
+		
+		input.close();
+
+	}
+
+}

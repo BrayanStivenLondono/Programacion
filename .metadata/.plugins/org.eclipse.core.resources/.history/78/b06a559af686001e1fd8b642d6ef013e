@@ -1,0 +1,16 @@
+package mas;
+
+public class While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub´
+		int contador = 100;
+		
+		while (contador>0) {
+			System.out.print(contador);
+			contador--;
+		}
+
+	}
+
+}

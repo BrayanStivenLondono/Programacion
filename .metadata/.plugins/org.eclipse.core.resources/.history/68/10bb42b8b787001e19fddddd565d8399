@@ -1,0 +1,26 @@
+package mas;
+
+import java.util.Scanner;
+
+public class DoWhile06 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// abecedario
+		
+		for (char i='A'; i<='Z'; i++) {
+			System.out.println(i);
+			
+			if (i=='N') {
+				System.out.println("Ñ");
+			}
+		}
+		
+
+		
+				
+				
+		input.close();		
+	}
+
+}

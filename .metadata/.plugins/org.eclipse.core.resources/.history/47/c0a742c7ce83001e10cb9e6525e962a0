@@ -1,0 +1,44 @@
+package ejercicios05BuclesExtra;
+
+import java.util.Scanner;
+
+public class Ejercicio01 {
+
+	public static void main(String[] args) {
+		System.out.println("Menu de opciones");
+		System.out.println("1. Convertir a binario");
+		System.out.println("2. Convertir a Hexadecimal");
+		System.out.println("3. Convertir a Octal");
+		System.out.println("4. Salir");
+		System.out.println("Introduce una opcion 1-4");
+		
+		Scanner input = new Scanner (System.in);
+		int opcion = input.nextInt();
+		
+		System.out.println("Introduce un numero entero en sistema decimal");
+		int num = input.nextInt();
+		
+		switch (opcion) {
+		case 1:
+			System.out.println("Binario");
+			System.out.println(Integer.toBinaryString(num));
+			break;
+		case 2:
+			System.out.println("Hexadecimal");
+			System.out.println(Integer.toHexString(num)(num));
+			break;
+		case 3:
+			System.out.println("Octal");
+			System.out.println(Integer.toOctalString(num)(num));
+			break;
+		}
+
+		
+		
+		
+		input.close();
+
+
+	}
+
+}

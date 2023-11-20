@@ -1,0 +1,40 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For03 {
+
+	public static void main(String[] args) {
+		// Programa para sumar
+		Scanner input = new Scanner (System.in);
+		System.out.println("Introduce un numero");
+	//	int suma = input.nextInt();
+		
+		for (int i=1; i<=10; i++) {
+			//System.out.println(suma + "+" + i +"=" + (suma+i));
+		}
+		//-------------------------------------------------------------------
+		// El abecedario con INT
+		for (int i=65; i<91; i++) {
+			System.out.println((char)i);
+			//imprimir todas
+			// cuando entre la N, pone la N y la Ñ
+			if (i=='N') {
+				System.out.print("Ñ"); // pido la Ñ porque no sale
+			}
+		}
+		// El abecedario con CHAR
+		for (char i='A'; i<='Z'; i++ ) {
+			System.out.println(i);
+			
+			if (i=='N') {
+				System.out.print('Ñ');
+			}
+		}
+	
+		
+		input.close();
+
+	}
+
+}

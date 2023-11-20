@@ -1,0 +1,28 @@
+package mas;
+
+import java.util.Scanner;
+
+public class While02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner (System.in);
+		
+		int numeroIngresado =0;
+		
+		while (true) {
+			System.out.println("Ingresa un numero positivo: ");
+			numeroIngresado = input.nextInt();
+			
+			if (numeroIngresado>0) {
+				break;
+			} else {
+				System.out.println("Numero no valido. Intentalo de nuevo.");
+			}
+		}
+		System.out.println("Numero ingreasado: "+numeroIngresado);
+		input.close();
+
+	}
+
+}

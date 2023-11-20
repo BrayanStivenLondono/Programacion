@@ -1,0 +1,25 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For01 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Introduce una cadena");
+		String cadena = input.nextLine();
+		
+		for (int i=0; i<cadena.length(); i++) {
+			char caracter = cadena.charAt(i);
+			
+			if (caracter=='a' || caracter=='e'||caracter=='i'|| caracter=='o'||caracter=='u') {
+				System.out.println("Contiene vocal");
+			} else {
+				System.out.println("No contiene vocal");
+			}
+		}
+		
+		input.close();
+	}
+
+}

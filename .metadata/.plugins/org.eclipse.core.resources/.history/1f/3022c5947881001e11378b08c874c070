@@ -1,0 +1,25 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For01 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Introduce una cadena");
+		String cadena = input.nextLine();
+		
+		for (int i=0; i<cadena.length(); i++) {
+			char caracter = cadena.charAt(i);
+			
+			if (caracter=='a' && caracter=='b') {
+				System.out.println("la cadena contiene la 'a'");
+			} else if (caracter=='c' && caracter=='c'){
+				System.out.println("La cadena contiene la 'b'");
+			}
+		}
+		
+		input.close();
+	}
+
+}

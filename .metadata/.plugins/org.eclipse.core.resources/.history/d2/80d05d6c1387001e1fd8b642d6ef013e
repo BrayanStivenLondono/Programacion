@@ -1,0 +1,23 @@
+package mas;
+
+import java.util.Scanner;
+
+public class While02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner (System.in);
+		System.out.println("Introduce un numero positivo");
+		int numero = input.nextInt();
+		
+		if (numero>=0) {
+			System.out.println("El numero es "+numero);
+		} else {
+			System.out.println("EL numero es negativo");
+		}
+		
+		input.close();
+
+	}
+
+}

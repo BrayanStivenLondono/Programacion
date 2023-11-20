@@ -1,0 +1,19 @@
+package mas;
+
+import java.util.Scanner;
+
+public class DoWhile06 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// Leer una cadena de texto
+		
+		
+
+		
+				
+				
+		input.close();		
+	}
+
+}

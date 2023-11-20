@@ -1,0 +1,33 @@
+package ejercicios05;
+
+import java.util.Scanner;
+
+public class Ejercicio20 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// TODO Auto-generated method stub
+		System.out.println("Introduce un caracter");
+        String caracter = input.nextLine();
+        
+        int contadorLetra=0;
+        for (int i=0; i<caracter.length(); i++) {
+    		 
+        	
+    		System.out.println("Introduce una cadena");
+            String cadena = input.nextLine();
+    	
+            if (cadena==caracter) {
+            	contadorLetra++;
+
+        }
+         
+        	
+        }
+		System.out.println("La cantidad del caracter "+caracter+ " es "+(contadorLetra+1));
+		
+		
+		input.close();
+	}
+
+}

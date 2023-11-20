@@ -1,0 +1,46 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For {
+
+	public static void main(String[] args) {
+		// se usa principalmente cuando sabemos cuantas veces se de repetir una variable
+		
+		// for > necesita principio y final
+		// for (variable que se usa en el bucle con su valor inicial;final;incremento)
+		// la variable que se usa en el bucle, se comienza siempre por i
+		//      inic  hasta  como?
+		Scanner input = new Scanner (System.in);
+		
+		for (int i=0; i<=10; i++) {
+			System.out.println();
+			//0
+			//1
+		}
+		for (int i=0; i<=10; i++) {
+			System.out.println(); //print
+			//1 2
+		}
+		
+		// Leer una cadena con FOR
+
+		String letra = input.nextLine();
+		
+		for (int i=0; i<=letra.length(); i++) {
+			char cadena = letra.charAt(i);
+			System.out.println(i);
+		}
+		System.out.println("La cadena es " + letra);
+		
+		
+		
+		
+		
+		
+		
+		input.close();
+
+	}
+
+}

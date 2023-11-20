@@ -1,0 +1,22 @@
+package mas;
+
+public class Mas03 {
+
+	public static void main(String[] args) {
+		// Tabla de la verdad
+		
+	
+		for (int l=0; l<16; l++) {
+			for (int k=0; k<16; k=k+2) {
+				for (int j=0; j<16; j=j+4) {
+					for (int i=0; i<16; i=i+8) {
+						System.out.println(i+j+k+l);
+					}
+				}
+				
+			}
+		}
+
+	}
+
+}

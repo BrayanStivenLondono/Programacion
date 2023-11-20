@@ -1,0 +1,21 @@
+package ejercicios05;
+
+import java.util.Scanner;
+
+public class Ejercicio41 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// Crea una aplicación que dibuje una pirámide de asteriscos.
+
+		
+		
+		
+		
+		
+		
+		
+		input.close();
+	}
+
+}

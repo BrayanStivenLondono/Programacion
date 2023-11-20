@@ -1,0 +1,21 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For03 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Introduce un numero");
+		int suma = input.nextInt();
+		
+		for (int i=1; i<=10; i++) {
+			System.out.println(suma + "+" + i +"=" + i+1);
+		}
+	
+		
+		input.close();
+
+	}
+
+}

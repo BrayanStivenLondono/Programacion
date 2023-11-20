@@ -1,0 +1,38 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For02 {
+
+	public static void main(String[] args) {
+		// leer una cadena de texto // Fin; para acabar
+		Scanner input = new Scanner (System.in);
+		 String cadena;
+		 int contadorVocal=0;
+		 int contadorTotal=0;
+		 String cadenaTotal="";
+		
+		do {
+			System.out.println("Introduce una cadena texto");
+			cadena = input.nextLine();
+			
+			//voy sumando la cantidad de caracteres de la cadena
+			//acumulador
+			
+			contadorTotal=contadorTotal+cadena.length();
+			//recorro cada cadena leida en buscar de vocales
+			
+			for (int i=0; i<cadena.length(); i++) {
+				
+				char letra = cadena.charAt(i);
+			}
+
+			
+		} while (!cadena.eq)
+		
+		
+		input.close();
+
+	}
+
+}

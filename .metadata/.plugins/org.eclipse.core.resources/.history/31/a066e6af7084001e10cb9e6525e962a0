@@ -1,0 +1,32 @@
+package ejercicios05;
+
+import java.util.Scanner;
+
+public class Ejercicio23 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		
+		System.out.println("Dame tus notas");
+		double nota = input.nextDouble();
+	
+		do {
+			
+			nota=nota/nota;
+			
+		} while (nota>=0);
+		System.out.println("Tu nota media es " + nota/nota);
+
+	
+			
+		
+		
+		
+		
+		
+		
+		input.close();
+
+	}
+
+}

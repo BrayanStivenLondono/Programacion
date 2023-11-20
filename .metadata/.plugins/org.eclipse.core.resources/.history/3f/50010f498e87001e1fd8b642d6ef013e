@@ -1,0 +1,30 @@
+package mas;
+
+import java.util.Scanner;
+
+public class DoWhile06 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// Leer una cadena de texto
+		
+		System.out.println("Introcude una cadena de texto");
+		String cadena = input.nextLine();
+		
+		int contadorVocal =0;
+		for (int i=0; i<cadena.length(); i++) {
+			char caracter = cadena.charAt(i);
+			
+			if (caracter=='a' || caracter=='e' || caracter=='e' || caracter=='o' || caracter=='u') {
+				contadorVocal++;
+				
+			}
+		}
+		System.out.println("La cantidad de vocales son "+contadorVocal);
+		
+				
+				
+		input.close();		
+	}
+
+}

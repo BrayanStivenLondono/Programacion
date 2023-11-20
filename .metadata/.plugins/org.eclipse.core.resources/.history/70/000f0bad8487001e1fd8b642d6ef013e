@@ -1,0 +1,15 @@
+package mas;
+
+public class DoWhile06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int cantidad=0;
+		do {
+			System.out.println(cantidad);
+			cantidad=cantidad+1;
+		}while (cantidad<10);
+	}
+
+}

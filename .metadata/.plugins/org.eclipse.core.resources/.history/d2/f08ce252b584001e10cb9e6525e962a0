@@ -1,0 +1,51 @@
+package ejercicios05BuclesExtra;
+
+import java.util.Scanner;
+
+public class Ejercicio03 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		int opcion=0;
+	
+		do {
+			System.out.println("Menus de opciones");
+			System.out.println("1. Volumen de una esfera");
+			System.out.println("2. Numero de tres cifras con cifras por separado");
+			System.out.println("3. Letras minusculas");
+			System.out.println("4. Pares entre dos numeros");
+			System.out.println("5. Salir");
+			opcion = input.nextInt();
+			switch (opcion) {
+			case 1:
+				System.out.println("Volumen de esfera");
+				System.out.println("Introduce el radio");
+				double radio = input.nextDouble();
+				System.out.println("Su Volumen de esfera"+radio+ "="+(4.0/3)*Math.PI*Math.pow(radio, 3));
+				break;
+			case 2:
+				System.out.println("tres cifras separadas");
+				System.out.println("Introduce un numero de tres cifras");
+				int cifras = input.nextInt();
+				
+				if (cifras>0) {
+					System.out.print(cifras+" ");
+				}
+				
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				break;
+			}
+
+			
+		} while (opcion!=0);
+
+		
+		input.close();
+	}
+
+}

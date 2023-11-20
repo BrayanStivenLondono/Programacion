@@ -1,0 +1,53 @@
+package ejercicios05;
+
+import java.util.Scanner;
+
+public class Ejercicio27 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// toLowerCase()	Pasa a minuscula
+		System.out.println("Dame una cadena de texto");
+		String cadena = input.nextLine() .toLowerCase(); // todo el texto entrante queda en minuscula
+		
+		int contadorA=0;
+		int contadorE=0;
+		int contadorI=0;
+		int contadorO=0;
+		int contadorU=0;
+		
+		for (int i=0; i<cadena.length(); i++) { 
+			// se encarga de coger el caracter de la cadena 
+			char caracter = cadena.charAt(i);
+			//primera vuelta char caracter=cadena.charAt(0);
+			//segunda vuelta char caracter=cadena.charAt(1);
+			
+			if (caracter=='a') {
+				contadorA++;
+			} else if (caracter=='e') {
+				contadorE++;
+			} else if (caracter=='i') {
+				contadorI++;
+			} else if (caracter=='o') {
+				contadorO++;
+			} else if (caracter=='u') {
+				contadorU++;
+			}
+		}
+		// 3 vocales y 15 letras -> porcentaje -> 3/15*100
+	    //porcentajes -> cantidad/total
+		//al ser contador int no funciona sino lo casteo a double
+		//                                  casting
+		System.out.println("el ratio A " + ((double)contadorA/cadena.length()*100));
+		System.out.println("el ratio E " + ((double)contadorE/cadena.length()*100));
+		System.out.println("el ratio I " + ((double)contadorI/cadena.length()*100));
+		System.out.println("el ratio O " + ((double)contadorO/cadena.length()*100));
+		System.out.println("el ratio U " + ((double)contadorU/cadena.length()*100));
+
+
+	
+		
+		input.close();
+	}
+
+}

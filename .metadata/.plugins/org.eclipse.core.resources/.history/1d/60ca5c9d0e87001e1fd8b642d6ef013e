@@ -1,0 +1,36 @@
+package mas;
+
+import java.util.Scanner;
+
+public class DoWhile04 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// TODO Auto-generated method stub
+
+		int numeroLeido =0;
+		int contadorLeido =0;
+		int mayor = 0;
+		int menor = 999999999;
+		
+		do {
+			System.out.println("Introduce numeros (0 para acabar)");
+			numeroLeido = input.nextInt();
+			contadorLeido++;
+			
+			if (numeroLeido!=0 && numeroLeido>mayor) {
+				mayor = numeroLeido;
+			}
+			if (numeroLeido!=0 && numeroLeido<menor) {
+				menor = numeroLeido;
+			}
+		} while (numeroLeido!=0);
+		System.out.println("La cantidad de numero es "+(contadorLeido-1));
+		System.out.println("El mayor es "+mayor);
+		System.out.println("El menor es "+menor);
+		System.out.println("La suma del total es "+(contadorLeido+numeroLeido+mayor+menor-1));
+		
+		input.close();
+	}
+
+}
