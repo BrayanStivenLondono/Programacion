@@ -16,9 +16,7 @@ public class Ejercicio33 {
 				}
 			}
 		}
-
-
-
+		
 	}
 
 }

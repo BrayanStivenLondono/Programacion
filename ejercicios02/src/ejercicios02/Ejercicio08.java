@@ -5,13 +5,10 @@ import java.util.Scanner;
 public class Ejercicio08 {
 
 	public static void main(String[] args) {
-		
+		Scanner input = new Scanner (System.in);
 		// Programa que lea un número entero de 5 cifras y 
 		// muestre sus cifras  desde el principio como en el ejemplo.
-				
-		
-		Scanner input = new Scanner (System.in);
-		
+	
 		System.out.println("Introduce un numero de 5 cifras");
 	    int numero = input.nextInt();
 		System.out.println(numero/10000);
@@ -40,13 +37,6 @@ public class Ejercicio08 {
 		// System.out.println(cadena1.substring (0,4));
 		// System.out.println(cadena1);
 
-
-
-
-		
-		
-		
-		
 		input.close();
 
 	}

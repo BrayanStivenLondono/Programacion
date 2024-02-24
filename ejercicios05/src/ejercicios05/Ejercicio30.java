@@ -11,8 +11,8 @@ public class Ejercicio30 {
 		
 		System.out.println("Dame un numero positivo");
 		int numero = input.nextInt();
-		System.out.println("Sus divisores son ");
 		
+		System.out.println("Sus divisores son ");
 		for (int i=1; i<=numero; i++) {
 			
 			if (numero%i==0) {
@@ -20,13 +20,8 @@ public class Ejercicio30 {
 				
 			}
 		}
-		
-		
-		
-		
-	
-		input.close();
 
+		input.close();
 	}
 
 }

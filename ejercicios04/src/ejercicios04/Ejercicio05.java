@@ -32,14 +32,7 @@ public class Ejercicio05 {
 		default:
 			System.out.println("mes no aceptable");
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+
 		input.close();
 
 	}

@@ -10,12 +10,11 @@ public class Ejercicio35 {
 		System.out.println("Introduce un numero entero");
 		int limit = input.nextInt();
 		
-		int contadorPrimos=0; // [CONTADOR]
-		
+		int contadorPrimos=0; 	
 		for (int i=1; i<limit; i++) {
 						
 			boolean esPrimo = true;
-			
+	
 			for (int j=2; j<i; j++) {
 				
 				if (i%j==0) {
@@ -23,12 +22,10 @@ public class Ejercicio35 {
 				}
 			}
 			if (esPrimo) {
-				contadorPrimos++; // [CONTADOR]
+				contadorPrimos++; 
 			}
-
 		}
 		System.out.println("El total es "+ contadorPrimos);
-		
 		input.close();
 
 	}

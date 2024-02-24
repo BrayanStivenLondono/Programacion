@@ -11,9 +11,6 @@ public class Ejercicio03 {
 		System.out.println("introduce el dia (numero)");
 		int dia = input.nextInt();
 		
-		// cuando leo un entero, y seguido tengo que leer un caracter
-		// limpiar el BUFFER
-		
 		input.nextLine(); //buffer
 
 		System.out.println("introduce un mes (texto)");

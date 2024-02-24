@@ -13,15 +13,7 @@ public class Ejercicio15 {
 		 String subCadena = cadenaLarga.substring(1,6);
 		 System.out.println(subCadena);
 		 
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 	}
 

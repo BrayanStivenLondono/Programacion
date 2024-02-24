@@ -18,9 +18,9 @@ public class For04 {
 			
 			// almacena el resultado
 			// suma el dato y acomuala
-			suma = suma+numero; // ACOMULADOR> le doy un valor
+			suma += numero; // ACOMULADOR> le doy un valor
 		}
-		System.out.println("La suma es " + suma);
+		System.out.println("La suma es "+suma);
 		System.out.println(MENSAJE);
 		
 		input.close();

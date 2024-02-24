@@ -25,11 +25,14 @@ public class For01 {
 		int contadorU=0;
 		int consonante=0;
 
+		String totalA ="";
+		
 		for (int i=0; i<cadena.length(); i++) {
-			char caracter = cadena.charAt(i);
 			
+			char caracter = cadena.charAt(i);
 			if (caracter=='a') {
 				contadorA++;
+				totalA += "*"; //muestra la cantidad con " "
 			} else if (caracter=='e') {
 				contadorE++;
 			} else if (caracter=='i') {
@@ -44,7 +47,7 @@ public class For01 {
 			}
 		
 		}
-		System.out.println("Cantidad A "+ contadorA);
+		System.out.println("Cantidad A "+ contadorA+ " "+totalA);
 		System.out.println("Cantidad E "+ contadorE);
 		System.out.println("Cantidad I "+ contadorI);
 		System.out.println("Cantidad O "+ contadorO);

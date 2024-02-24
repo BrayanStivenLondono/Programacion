@@ -6,25 +6,21 @@ public class Ejercicio21 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
-		// Pasa un numero de binario a decimal // for07 // eje:22 los mismo pero con cualquier binario
-		System.out.println("Introduce un decimal");
-		String binario = input.nextLine();
+		System.out.println("Introduce un numero binario (8 cifras)");
+		int binario = input.nextInt();
+
+		int resultado = 0;
 		
-		int exponente =0; //contador
-		long acomulador =0;
-		for (int i=binario.length()-1; i>=0; i--) {
-			if (binario.charAt(i)=='1') {
-				acomulador = acomulador + (long) (Math.pow(2, exponente));
-			}
-			exponente++;
+		for (int i=0; i<8; i++) {
+			
+			int bit = binario%10;
+			binario /= 10;
+
+			resultado = resultado + (int)(Math.pow(2, i)*bit);
 		}
-		System.out.println("La conversion es: "+acomulador);
-		
-		
-		
+	System.out.println("la conversion es: "+resultado);
+
 		input.close();
-		
-		
 
 	}
 

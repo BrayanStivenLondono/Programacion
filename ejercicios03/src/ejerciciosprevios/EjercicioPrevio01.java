@@ -18,7 +18,7 @@ public class EjercicioPrevio01 {
 		
 		int numero = 34;
 		
-		// if solo con valr si
+		// if solo con valor si
 		if (numero>30) { // lo que va delante del ?
 			System.out.println("El numero es mayor que 30"); // valor del si
 		
@@ -29,12 +29,7 @@ public class EjercicioPrevio01 {
 			System.out.println("El numero es mayor que 30"); // valor del si
 		} else {
 			System.out.println("El numero no es mayor que 30"); // valor de no
-			
-
-			
-			
-			
-			
+	
 			input.close();
 			
 		}

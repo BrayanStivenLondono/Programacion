@@ -10,7 +10,6 @@ public class Mas {
 		System.out.println("Dame un numero");
 		
 		double numero = input.nextDouble();
-		
         double raiz = Math.sqrt(numero);
         
         System.out.println("Su raiz cuadrada es " + raiz);		

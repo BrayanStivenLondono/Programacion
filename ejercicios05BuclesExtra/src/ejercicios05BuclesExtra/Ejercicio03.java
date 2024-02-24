@@ -59,6 +59,7 @@ public class Ejercicio03 {
 				int numero1 = input.nextInt();
 				System.out.println("Introduce otro numero que sea mayor al primero");
 				int numero2 = input.nextInt();
+				
 				if (numero1>=numero2) {
 					System.out.println("El segundo numero debe ser mayor que el primero");
 				} else {

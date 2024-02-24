@@ -21,8 +21,7 @@ public class Ejercicio24 {
 				}
 				System.out.println(); // IMPORTANTE (Si pone para que salga uno encima de otro)
 			}
-		
-		
+	
 		input.close();
 
 	}

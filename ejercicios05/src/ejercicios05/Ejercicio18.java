@@ -24,11 +24,9 @@ public class Ejercicio18 {
 				System.out.print("("+i+","+j+") ");
 
 	       }
-	    	System.out.println();
-			
+	    	System.out.println();	
        }
-
-		input.close();
+	    input.close();
 
 	}
 

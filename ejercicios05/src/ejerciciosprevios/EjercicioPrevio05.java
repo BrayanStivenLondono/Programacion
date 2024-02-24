@@ -12,7 +12,7 @@ public class EjercicioPrevio05 {
 		int cantidad = 0;
 		
 		do {
-			System.out.println(cantidad);
+			System.out.print(cantidad+" ");
 			cantidad=cantidad+1;
 			
 		} while (cantidad<10); 

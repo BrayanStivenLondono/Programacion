@@ -17,14 +17,13 @@ public class Ejercicio28 {
 		do {
 			System.out.println("Introduce varios numero (0 para acabar)");
 			numeroLeido = input.nextInt();
-			
 			contador++; //acomulador
 			
 			if (numeroLeido!=0 && numeroLeido>mayor) { 
-				mayor=numeroLeido;
+				mayor = numeroLeido;
 			}
 			if (numeroLeido!=0 && numeroLeido<menor) {
-				menor=numeroLeido;
+				menor = numeroLeido;
 			}
 			
 			
@@ -34,11 +33,6 @@ public class Ejercicio28 {
 		System.out.println("El mayor es " + mayor);
 		System.out.println("La suma de los numeros es "+ (numeroLeido+contador+menor+mayor-1));
 
-		
-		
-		
-		
-		
 		input.close();
 
 	}

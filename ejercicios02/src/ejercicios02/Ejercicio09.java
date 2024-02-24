@@ -21,11 +21,11 @@ public class Ejercicio09 {
 		
 		// Otro modo (USAR ESTE)
         
-		// System.out.println(cadena1.substring (0,1));
-		// System.out.println(cadena1.substring (0,2));
-		// System.out.println(cadena1.substring (0,3));
-		// System.out.println(cadena1.substring (0,4));
-		// System.out.println(cadena1);
+		// System.out.println(numero.substring (0,1));
+		// System.out.println(numero.substring (0,2));
+		// System.out.println(numero.substring (0,3));
+		// System.out.println(numero.substring (0,4));
+		// System.out.println(numero);
 		// num 123
 		// 1
 		// 12

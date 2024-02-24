@@ -14,7 +14,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <meta name="keywords" content="Archived, old, closed, suspended, shutdown, closed"/>
     <link rel="shortcut icon" href="/eclipse.org-common/themes/solstice/public/images/favicon.ico"/>
     <title>Archived Projects | The Eclipse Foundation</title>
-    <link rel="preconnect stylesheet" href="/eclipse.org-common/themes/solstice/public/stylesheets/astro.min.css?v0.0.211"/>
+    <link rel="preconnect stylesheet" href="/eclipse.org-common/themes/solstice/public/stylesheets/astro.min.css?v0.0.248"/>
 <meta name="description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 415 open source projects, including runtimes, tools and frameworks."/>
 <meta property="og:description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 415 open source projects, including runtimes, tools and frameworks."/>
 <meta property="og:image" content="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-200x200.png"/>
@@ -31,14 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 415 open source projects, including runtimes, tools and frameworks."/>
 <meta name="twitter:image" content="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-400x400.png"/>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="preconnect stylesheet" type="text/css"/>
-    <script> var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}</script>    <style>
-      /* @todo: Remove this hotfix after community testing */
-      .featured-jumbotron.featured-jumbotron-astro h1.featured-jumbotron-headline {
-        font-size: 4rem;
-        letter-spacing: normal;
-      }
-    </style>
-  </head>
+    <script> var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}</script>  </head>
   <body id="body_solstice">
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
@@ -240,8 +233,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                     <li>
                       <a class="mobile-menu-item"
-                        href="https://membership.eclipse.org/application">Membership
+                      href="https://www.eclipse.org/membership/#tab-membership">Membership
                       Application</a>
+                    </li>
+                    <li>
+                      <a class="mobile-menu-item"
+                      href="https://www.eclipse.org/membership/#tab-resources">Member Resources</a>
                     </li>
                     <li>
                       <a class="mobile-menu-item"
@@ -390,9 +387,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <a class="mobile-menu-item" href="https://www.eclipse.org/forums/">Forum</a>
                     </li>
                     <li>
-                      <a class="mobile-menu-item" href="https://wiki.eclipse.org/">Wiki</a>
-                    </li>
-                    <li>
                       <a class="mobile-menu-item" href="https://accounts.eclipse.org/mailing-list">Mailing Lists</a>
                     </li>
                     <li>
@@ -458,7 +452,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <a class="mobile-menu-item" href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a>
                     </li>
                     <li>
-                      <a class="mobile-menu-item" href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a>
+                      <a class="mobile-menu-item" href="https://www.eclipse.org/legal/compliance/">Compliance</a>
                     </li>
                     <li>
                       <a class="mobile-menu-item" href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a>
@@ -579,8 +573,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               Fees</a>
                       </li>
                       <li>
-                          <a href="https://membership.eclipse.org/application">Membership
-                              Application</a>
+                        <a href="https://www.eclipse.org/membership/#tab-membership">Membership Application</a>
+                      </li>
+                      <li>
+                        <a href="https://www.eclipse.org/membership/#tab-resources">Member Resources</a>
                       </li>
                       <li>
                           <a href="https://membership.eclipse.org/portal">Member Portal</a>
@@ -716,9 +712,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <a href="https://www.eclipse.org/forums/">Forum</a>
                       </li>
                       <li>
-                          <a href="https://wiki.eclipse.org/">Wiki</a>
-                      </li>
-                      <li>
                           <a href="https://accounts.eclipse.org/mailing-list">Mailing Lists</a>
                       </li>
                       <li>
@@ -781,7 +774,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a>
                       </li>
                       <li>
-                          <a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a>
+                          <a href="https://www.eclipse.org/legal/compliance/">Compliance</a>
                       </li>
                       <li>
                           <a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a>
@@ -883,6 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/dd.tgz" alt="DSDP DD Archive" >DSDP DD</a> project. Archived: October 2010.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/dsdp.tgz" alt="DSDP Archive" >DSDP</a> project. Archived: September 2011.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/doc2model.tgz" alt="Doc2Model Archive" >Doc2Model</a> project. Archived: January 2015.</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/e4.tgz">E4</a> project.  Archived: January 2024</p>
         <p><a href="http://archive.eclipse.org/archived_projects/eatop.tgz">Modeling EATop</a> project.  Archived: March 2021</p>
         <p><a href="http://archive.eclipse.org/archived_projects/ebr.tgz">RT EBR</a> project.  Archived: February 2023</p>
         <p><a href="http://archive.eclipse.org/archived_projects/edje.tgz">IOT Edje</a> project.  Archived: November 2018</p>
@@ -911,6 +905,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/gyrex.tgz">gyrex</a> project.  Archived: March 2018</p>
         <p><a href="http://archive.eclipse.org/archived_projects/hibachi.tgz">Hibachi</a> project.  Archived: January 2011</p>
         <p><a href="http://archive.eclipse.org/archived_projects/hip.tgz">Hip</a> project.  Archived: August 2019</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/higgins.tgz">Higgins</a> project.  Archived: April 2017</p>
         <p><a href="http://archive.eclipse.org/archived_projects/hudson.tgz">Hudson</a> project.  Archived: February 2021</p>
         <p><a href="http://archive.eclipse.org/archived_projects/iam.tgz">Iam</a> project.  Archived: January 2012</p>
         <p><a href="http://archive.eclipse.org/archived_projects/ignite.tgz">Ignite</a> project.  Archived: November 2021</p>
@@ -1029,68 +1024,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             class="main-sidebar-heading link-unstyled"
                           href=""
                       >
-            Eclipse Projects          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/dev_process">
-            Development Process          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/handbook">
-            Project Handbook          </a>
+            Committers          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
           <a class="link-unstyled" href="/projects/training">
             Committer Training          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/calendar">
-            Projects Event Calendar          </a>
+          <a class="link-unstyled" href="/projects/handbook">
+            Project Handbook          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
           <a class="link-unstyled" href="/projects/calendar#office-hours">
             Office Hours          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="https://projects.eclipse.org">
-            Search Projects          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/tools/hierarchy.php">
-            All Projects          </a>
-        </li>
-                              <li class="main-sidebar-main-item main-sidebar-item-indented separator">
-          <a 
-            class="main-sidebar-heading link-unstyled"
-                      >
-            Lifecycle          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/project_activity.php">
-            Activity          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/tools/proposals.php">
-            Proposals          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/tools/reviews.php">
-            Reviews          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/tools/goodstanding-releases.php">
-            Releases          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/projects/tools/hierarchy.php">
-            Project Hierarchy          </a>
         </li>
                               <li class="main-sidebar-main-item main-sidebar-item-indented separator">
           <a 
             class="main-sidebar-heading link-unstyled"
                           href=""
                       >
-            Eclipse Specifications          </a>
+            Projects          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/projects">
+            Projects Home          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/projects/dev_process">
+            Development Process          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/projects/project_activity.php">
+            Activity          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="https://projects.eclipse.org">
+            Search Projects          </a>
+        </li>
+                              <li class="main-sidebar-main-item main-sidebar-item-indented separator">
+          <a 
+            class="main-sidebar-heading link-unstyled"
+                      >
+            Specifications          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/specifications/">
+            Specifications Home          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
           <a class="link-unstyled" href="/projects/efsp">
@@ -1107,24 +1086,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <li class="main-sidebar-main-item main-sidebar-item-indented separator">
           <a 
             class="main-sidebar-heading link-unstyled"
-                          href=""
-                      >
-            Working Groups          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/org/workinggroups/industry_wg_process.php">
-            Process          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/org/workinggroups/operations.php">
-            Operations Guide          </a>
-        </li>
-                              <li class="main-sidebar-main-item main-sidebar-item-indented separator">
-          <a 
-            class="main-sidebar-heading link-unstyled"
-                          href=""
                       >
             Legal          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/legal/">
+            Legal Home          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
           <a class="link-unstyled" href="/org/documents/Eclipse_IP_Policy.pdf">
@@ -1135,16 +1102,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Contributor Agreement          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/contribute/cla">
-            ECA Validation Tool          </a>
-        </li>
-                              <li class="main-sidebar-item main-sidebar-item-indented">
           <a class="link-unstyled" href="/legal/epl-2.0">
             EPL-2.0          </a>
         </li>
+                              <li class="main-sidebar-main-item main-sidebar-item-indented separator">
+          <a 
+            class="main-sidebar-heading link-unstyled"
+                          href=""
+                      >
+            Collaborations          </a>
+        </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
-          <a class="link-unstyled" href="/legal/licenses.php">
-            3rd Party Licenses          </a>
+          <a class="link-unstyled" href="/collaborations">
+            Industry Collaborations Home          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/org/workinggroups/industry_wg_process.php">
+            Working Group Process          </a>
+        </li>
+                              <li class="main-sidebar-item main-sidebar-item-indented">
+          <a class="link-unstyled" href="/org/workinggroups/operations.php">
+            Operations Guide          </a>
         </li>
                               <li class="main-sidebar-item main-sidebar-item-indented">
           <a class="link-unstyled" href="http://www.eclipse.org">
@@ -1172,7 +1150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="footer-legal" class="footer-section col-md-5 col-sm-8">
               <div class="menu-heading">Legal</div>
       <ul class="nav">
-        <ul class="nav"><li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li><li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li><li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li><li><a href="https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php">Code of Conduct</a></li><li><a href="https://www.eclipse.org/legal/">Legal Resources</a></li></ul>
+        <ul class="nav"><li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li><li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li><li><a href="https://www.eclipse.org/legal/compliance/">Compliance</a></li><li><a href="https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php">Code of Conduct</a></li><li><a href="https://www.eclipse.org/legal/">Legal Resources</a></li></ul>
         <li>
           <a href="#" class="toolbar-manage-cookies">Manage Cookies</a>
         </li>
@@ -1235,7 +1213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="col-sm-24">
       <div class="row">
         <div id="copyright" class="col-md-16">
-          <p id="copyright-text">Copyright &copy; Eclipse Foundation, Inc. All Rights Reserved.</p>
+        <p id="copyright-text">Copyright &copy; Eclipse Foundation AISBL. All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -1243,7 +1221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/eclipse.org-common/themes/solstice/public/javascript/astro.min.js?var=0.0.211"></script>
+<script src="/eclipse.org-common/themes/solstice/public/javascript/astro.min.js?var=0.0.248"></script>
 
 </body>
 </html>

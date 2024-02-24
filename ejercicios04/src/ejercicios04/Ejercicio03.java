@@ -47,6 +47,7 @@ public class Ejercicio03 {
 		
 		default:
 			System.out.println("Opcion no validas");
+		break;
 		}
 		
 		input.close();

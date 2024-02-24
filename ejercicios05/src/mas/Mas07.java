@@ -9,12 +9,12 @@ public class Mas07 {
 		// Medidor de deposito de agua
 		System.out.println("Introduce el tamaño del deposito");
 		float totalDeposito = input.nextFloat();
-		float litrosActuales=0; //
-		
+		float litrosActuales=0;
+
 		do {
 			System.out.println("Introduce litros (positivo: llena,negativo: extrae)");
 			
-			litrosActuales = litrosActuales+input.nextFloat(); //acomulador
+			litrosActuales += input.nextFloat(); //acomulador
 			
 			if (litrosActuales<totalDeposito) {
 				System.out.println("Faltan "+(totalDeposito-litrosActuales)+" Litros para llenar deposito");

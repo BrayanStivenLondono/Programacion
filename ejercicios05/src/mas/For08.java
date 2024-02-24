@@ -14,9 +14,8 @@ public class For08 {
 		 // % = 2
 		for (int i=2; i<numero; i++) { // importante
 			
-			if(numero%i==0) {  // importante
+			if(numero%i==0) {  // importante (puedo poner numero%2 o numero%i || porque i vale 2
 				esPrimo = false;
-				
 			}
 		}
 		if (esPrimo) {
@@ -24,11 +23,7 @@ public class For08 {
 		} else {
 			System.out.println("No es primo");
 		}
-		
-		
-		
-		
-		
+
 		input.close();
 	}
 

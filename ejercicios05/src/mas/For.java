@@ -12,19 +12,19 @@ public class For {
 		// la variable que se usa en el bucle, se comienza siempre por i
 		//      inic  hasta  como?
 		Scanner input = new Scanner (System.in);
-		
-		for (int i=0; i<=10; i++) {
-			System.out.println();
+
+		for (int i=10; i<=0; i++) {
+			System.out.print(i);
 			//0
 			//1
 		}
 		for (int i=0; i<=10; i++) {
-			System.out.print(i); //print
+			System.out.print("\n"+i); //print
 			//1 2
 		}
 		//-----------------------------------------------------------------
 		// Leer una cadena con FOR
-		System.out.println("Introduce una cadena");
+		System.out.println("\nIntroduce una cadena");
 		String cadena = input.nextLine() .toLowerCase();
 		
 		int contadorA=0; // dice cuantos hay
@@ -35,7 +35,9 @@ public class For {
 		
 		for (int i=0; i<cadena.length();i++) {
 			
-			//se encarga de coger cada caracter de la cadena
+			// se encarga de coger cada caracter de la cadena
+			// toUpperCase (pasa a mayuscula)
+			// compareToIgnoreCase (ignora mayus y minus)
 
 			char caracter = cadena.charAt(i);
 			
@@ -64,9 +66,6 @@ public class For {
 		System.out.println("El ratio es " +(double)contadorO/cadena.length()*100);
 		System.out.println("El ratio es " +(double)contadorU/cadena.length()*100);
 
-		
-
-		
 		input.close();
 
 	}

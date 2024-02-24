@@ -13,7 +13,8 @@ public class While {
 			System.out.print(contador+("-"));
 			contador--;
 		}
-		//--------------------------------------------------------------------
+		//----------------------------------------------------------------------------------
+		// contador de cifras
 		System.out.println("Introduce un numero");
 		int numero = input.nextInt(); // cuenta las cifras de un numero (527 > 3) o (45 > 2)
 		

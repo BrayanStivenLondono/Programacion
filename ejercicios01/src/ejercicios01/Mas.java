@@ -4,11 +4,7 @@ public class Mas {
 
 	public static void main(String[] args) {
 		// operador condicional
-		
-		
-		
-		
-		double precio1 = 25;
+	double precio1 = 25;
 		double precio2 = 32;
 		System.out.println((precio1>20) && (precio2>20)?"son caros":"no son caros");
 		System.out.println((precio1>20) || (precio2>20)?"al menos es caro":"no son caros");
@@ -23,10 +19,7 @@ public class Mas {
 		resultado = true;
 		resultado = !resultado;
 		System.out.println(!resultado);
-		
-		
-		
-		
+	
 
 	}
 

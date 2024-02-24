@@ -12,9 +12,9 @@ public class Ejercicio06 {
 		System.out.println("Dame la longiutd de cateto2");
 		double cateto2 = input.nextDouble();
 		
-		double hipotenusa=Math.sqrt(cateto1*cateto1)+(cateto2*cateto2);
+		double hipotenusa = Math.sqrt(cateto1*cateto1)+(cateto2*cateto2);
 		
-		System.out.println("La longitud de la hipotenusa " + hipotenusa);
+		System.out.println("La longitud de la hipotenusa "+hipotenusa);
 		
 		
 		

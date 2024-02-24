@@ -39,18 +39,6 @@ public class Mas {
 
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		input.close();
 	}
 

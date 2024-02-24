@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="ejerciciosprevios.EjercicioPrevio16"/>
+<fullyQualifiedTypeName name="ejercicios05.Metodo05"/>
+<fullyQualifiedTypeName name="ejercicios08.Metodo08"/>
+<fullyQualifiedTypeName name="ejercicio03.Ejercicio03"/>
+<fullyQualifiedTypeName name="ejercicio05.Ejercicio05"/>
+<fullyQualifiedTypeName name="ejercicios07.Metodo07"/>
+<fullyQualifiedTypeName name="ejercicios10.Ejercicio10"/>
+<fullyQualifiedTypeName name="ejercicios16.Ejercicio16"/>
+<fullyQualifiedTypeName name="ejercicio03.Metodo03Bis"/>
+<fullyQualifiedTypeName name="parcial1mtd.Ejercicio02"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="ejercicio10.Ejercicio10"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
+<fullyQualifiedTypeName name="refactorizar3.OpcionesMenu"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="ejercicio05.ProfesorTitular"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

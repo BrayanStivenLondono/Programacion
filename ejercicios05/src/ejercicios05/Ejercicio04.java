@@ -15,15 +15,15 @@ public class Ejercicio04 {
 
 
 		System.out.println("Bucle 1");
-		for (int i = mayor; i>=menor; i--) {
-			System.out.println(i);	
+		for (int i=mayor; i>=menor; i--) {
+			System.out.print(i);	
 		}
 		System.out.println("Bucle 1");
-		for (int i = mayor; i>=menor; i--) {
+		for (int i=mayor; i>=menor; i--) {
 			System.out.print(i+" ");	
 		
 		}
-		System.out.println("MENSAJE");
+		System.out.println(MENSAJE);
 		
 	
 		

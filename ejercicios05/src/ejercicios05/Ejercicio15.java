@@ -17,18 +17,14 @@ public class Ejercicio15 {
 		
 		do {
 			System.out.println("Introduce numero positivos o negaticos (termina con el 0)");
-			numLeido=input.nextInt();
+			numLeido = input.nextInt();
+			
 			contadorNumLeidos++; // CONTADOR
-			sumaTotal=sumaTotal+numLeido; // ACOMULADOR
-			
-			
+			sumaTotal += numLeido; // ACOMULADOR
 		} while (numLeido!=0);
 		
-		System.out.println("El total de numeros es " + (contadorNumLeidos-1)); // (-1) para no contar el cero en el contador
-		System.out.println("La suma de numeros es " + sumaTotal);
-
-		
-		
+		System.out.println("El total de numeros es "+(contadorNumLeidos-1)); // (-1) para no contar el cero en el contador
+		System.out.println("La suma de numeros es "+sumaTotal);
 		
 		input.close();
 

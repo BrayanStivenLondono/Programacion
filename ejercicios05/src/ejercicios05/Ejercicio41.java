@@ -8,8 +8,7 @@ public class Ejercicio41 {
 		Scanner input = new Scanner (System.in);
 		// Crea una aplicación que dibuje una pirámide de asteriscos.
 		System.out.println("Introduce la altura de la piramide");
-		int altura = input.nextInt();
-		
+		int altura = input.nextInt();		
 
 		for (int i=1; i<=altura; i++) {
 		
@@ -25,13 +24,7 @@ public class Ejercicio41 {
 			System.out.println();
 
 		}
-		
-		
-		
-		
-		
-		
-		
+
 		input.close();
 	}
 

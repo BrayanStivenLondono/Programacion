@@ -25,10 +25,6 @@ public class Ejercicio01 {
         System.out.println((int)letra2);
         // casteo explicito
 
-      	
-		
-		
-		
 		
 	}
 

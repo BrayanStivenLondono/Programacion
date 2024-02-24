@@ -6,9 +6,9 @@ public class Ejercicio15 {
 
 	public static void main(String[] args) {
 		 Scanner input = new Scanner (System.in);
-		 
-		 String cadena = input.nextLine();
+		 // cambia de posicion las cadenas
 		 System.out.println("Introuduce dos palabras separadas");
+		 String cadena = input.nextLine();
 		
 		 int posicionEspacio = cadena.indexOf(' ')+1;
 		 		 

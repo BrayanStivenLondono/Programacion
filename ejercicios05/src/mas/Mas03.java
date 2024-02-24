@@ -3,9 +3,7 @@ package mas;
 public class Mas03 {
 
 	public static void main(String[] args) {
-		// Tabla de la verdad
-		
-		
+	
 		for (int i=0; i<16; i++) {
 			for (int j=0; j<8; j=j+2) {
 				for (int k=0; k<4; k=k+4) {
@@ -13,10 +11,7 @@ public class Mas03 {
 						System.out.println(i+"-"+j+"-"+k+"-"+l);
 					}
 				}
-				
 			}
 		}
-
 	}
-
 }

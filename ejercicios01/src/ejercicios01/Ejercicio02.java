@@ -13,6 +13,7 @@ public class Ejercicio02 {
         float num5 = 12;
         double num6 = 67;
         // declarar
+        
         System.out.println(num1+num2Byte);  
         System.out.println(num2Byte);
         System.out.println(num3%num4);

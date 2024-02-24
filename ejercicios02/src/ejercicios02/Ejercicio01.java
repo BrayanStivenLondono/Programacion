@@ -18,8 +18,6 @@ public class Ejercicio01 {
 		System.out.println("El doble es " + numero*2);
 		System.out.println("El triple es " + numero*3);
 
-		
-		
 		input.close();
 
 	}

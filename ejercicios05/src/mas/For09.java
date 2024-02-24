@@ -21,9 +21,7 @@ public class For09 {
 				contadorLetra++;
 			}
 		}
-
 		System.out.println("El cantidad del caracter " +caracter+ " es "+contadorLetra);
-		
 		
 		input.close();
 	}

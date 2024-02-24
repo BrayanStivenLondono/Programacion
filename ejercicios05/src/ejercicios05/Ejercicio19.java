@@ -17,7 +17,7 @@ public class Ejercicio19 {
 			
 			if (numero%3==0) {
 				contador++; // dice cuantos numero multiplos de 3 hay 
-				acomulador=acomulador+numero; // suma los numeros que son multiplos de 3
+				acomulador = acomulador+numero; // suma los numeros que son multiplos de 3
 				hayMultiplo = true;
 				
 			}
@@ -28,9 +28,6 @@ public class Ejercicio19 {
 		} else {
 			System.out.println("No hay multiplos");
 		}
-		
-		
-		
 		
 		input.close();
 		

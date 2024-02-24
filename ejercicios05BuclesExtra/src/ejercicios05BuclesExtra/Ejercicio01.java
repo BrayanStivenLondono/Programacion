@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio01 {
 
-	public static void main(String[] args) { // Menu
+	public static void main(String[] args) { // Menu // NO SE REPITE
 		System.out.println("Menu de opciones");
 		System.out.println("1. Convertir a binario");
 		System.out.println("2. Convertir a Hexadecimal");

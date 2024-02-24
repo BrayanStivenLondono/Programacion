@@ -12,7 +12,7 @@ public class Ejercicio10 {
 		
 		double suma=0;
 		System.out.println("Bucle1");
-		for (int i = 0; i < 10; i++) {
+		for (int i=0; i<10; i++) {
 			System.out.println("Dame un numero");
 			double numero = input.nextDouble();
 			// almacena el resultado
@@ -21,9 +21,8 @@ public class Ejercicio10 {
 			
 			
 		}
-		System.out.println("La suma es" + suma);
-
-		
+		System.out.println("La suma es "+suma);
+	
 		input.close();
 
 	}

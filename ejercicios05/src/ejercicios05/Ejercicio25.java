@@ -20,15 +20,12 @@ public class Ejercicio25 {
 			System.out.println("Kelvin "+(centigrados+173));
 			
 			System.out.println("¿Repito (S/N)?");
-			respuesta = input.nextLine() .charAt(0);
+			respuesta = input.nextLine().charAt(0);//char
 			
 		} while (respuesta=='S' || respuesta=='s');
-		
-		
 
 		input.close ();
 		
-
 	}
 
 }

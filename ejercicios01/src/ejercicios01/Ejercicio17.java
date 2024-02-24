@@ -14,7 +14,7 @@ public class Ejercicio17 {
 	    System.out.println(resultado>0? cadena1 +" es mayor que " + cadena2 
 	    		:(resultado == 0? cadena1 + "es igual a" + cadena2 
 	    		        : cadena1 + "es menor que" + cadena2));
-	    
+
 	}
 
 }

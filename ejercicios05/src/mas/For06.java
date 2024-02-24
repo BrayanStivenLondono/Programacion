@@ -19,9 +19,9 @@ public class For06 {
 			}
 			System.out.println(); // IMPORTANTE (Si pone para que salga uno encima de otro)
 		} //                                                                           i<alto        
-          //                                                      Diferencia           j<ancho
+        //                                                          Diferencia         j<ancho      0
 		//-----------------------------------------------------------------------------------
-		// DIBUJO ESCALERA                                                             i<=altura
+		// DIBUJO ESCALERA                                                             i<=altura    1
 		//                                                                             j<=i
 		System.out.println("Introduce la altura de la escalera"); // solo se pide altura
 		int altura = input.nextInt();

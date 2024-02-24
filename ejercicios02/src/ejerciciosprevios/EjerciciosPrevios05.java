@@ -15,7 +15,7 @@ public class EjerciciosPrevios05 {
 		//obtener la posicion de las / -> 2 y 5
 		
 		boolean compruebaBarra = cadena.charAt(2)=='/' && cadena.charAt(5)=='/';
-		System.out.println(compruebaBarra ?"formato fecha correcto" : "formato fecha incorrecto");
+		System.out.println(compruebaBarra ? "formato fecha correcto" : "formato fecha incorrecto");
 		
 		//comprobar si realmente el dia y el mes tiene un numero correcto
 		//dia entre 1 y 31
@@ -25,13 +25,13 @@ public class EjerciciosPrevios05 {
 		
 		//lo paso a numero
 		int numDia = Integer.parseInt(dia);
-		int numMes=Integer.parseInt(mes);
+		int numMes = Integer.parseInt(mes);
 		
 		//compruebo
-		boolean comprueboDia=numDia>=1 && numDia<=31;
+		boolean comprueboDia = numDia>=1 && numDia<=31;
 		System.out.println(comprueboDia? "dia correcto":"dia incorrecto");
-		boolean comprueboMes=numMes>=1 && numMes<=12;
-		System.out.println(comprueboMes?"mes correcto":"mes incorrecto");
+		boolean comprueboMes = numMes>=1 && numMes<=12;
+		System.out.println(comprueboMes? "mes correcto":"mes incorrecto");
 		
 		
 		input.close();

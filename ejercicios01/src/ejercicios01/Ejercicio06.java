@@ -8,10 +8,7 @@ public class Ejercicio06 {
 		int variableA = -23;
 		System.out.println(variableA>=0? " Es positivo " : " Es negativo ");
 		
-		
- 		
-		
-		
+	
 	}
 
 }

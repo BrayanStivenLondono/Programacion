@@ -13,8 +13,7 @@ public class Ejercicio13 {
 		// for
 		// 14  DO-WHILE
 		// 15  DO-WHILE
-		
-		
+
 		System.out.println("Dame la base");
 		int base = input.nextInt();
 
@@ -26,15 +25,13 @@ public class Ejercicio13 {
 		int resultado =1;
 		// inicializar suma a 0, multiplicaciones a 1
 		for (int i=0; i<exponente; i++) {
-			resultado=resultado*base; // ACOMULADOR (IMPORTANTE) (guarda el resultado y lo multiplica por el siguiente
+			resultado = resultado*base; // ACOMULADOR (IMPORTANTE) (guarda el resultado y lo multiplica por el siguiente
 		}
-		System.out.println("el resultado es " + resultado);
+		System.out.println("el resultado es "+resultado);
 		
-		// resultado =1*5
-		// resultado          =5*5
-		// multiplica =25*5
-		
-		
+		// resultado  = 1*5
+		// resultado  = 5*5
+		// multiplica = 25*5
 	
 		input.close();
 		

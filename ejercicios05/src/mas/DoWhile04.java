@@ -19,15 +19,17 @@ public class DoWhile04 {
 			contadorNumero++;
 			
 			if (numero!=0 && numero>mayor) { // MAYOR (+)
-				mayor = numero;
+				mayor = numero; //acomulador
 			}
 			if (numero!=0 && numero<menor) { // MENOR (-)
-				menor = numero;
+				menor = numero; //acomulador
 			}
+			
 		} while (numero!=0);
 		System.out.println("La cantidad de numero es "+(contadorNumero-1));
 		System.out.println("El mayor es "+mayor);
 		System.out.println("El menor es "+menor);
+	
 		
 		input.close();
 	}

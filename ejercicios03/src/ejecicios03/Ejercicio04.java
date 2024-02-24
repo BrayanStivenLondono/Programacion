@@ -20,13 +20,6 @@ public class Ejercicio04 {
 			System.out.println("No son iguales");
 		}
 		
-		
-		
-		
-		
-		
-		
-		
 		input.close();
 	}
 

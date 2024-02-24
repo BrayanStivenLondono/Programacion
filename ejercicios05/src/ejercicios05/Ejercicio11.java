@@ -10,15 +10,13 @@ public class Ejercicio11 {
 		// y muestra los caracteres de la cadena de texto separados por un espacio.
 		System.out.println("Dime tu contraseña (cadena)");
 		String cadena = input.nextLine();
-		
-		
+
 		// cadena.length() > longitud de cadena
 		for (int i=0; i<cadena.length(); i++) {
 			// muestro cada caracter de la cadena
 			// y lo concateno en un espacio
-			System.out.println(cadena.charAt(i)+" ");
-			
-			
+			System.out.print(cadena.charAt(i)+" ");
+				
 		}
 		// cadena.charAt() > en cada vuelta. charAt (), .....
 		

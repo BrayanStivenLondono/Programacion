@@ -8,16 +8,7 @@ public class Ejercicio13 {
 		String cadena = "cadena de palabras";
 		System.out.println(cadena);
 
-		System.out.println(" la longitud es "+ cadena.length());
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("la longitud es "+ cadena.length());
 
 	}
 

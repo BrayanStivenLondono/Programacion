@@ -17,16 +17,20 @@ public class Ejercicio12 {
 				
 				switch (opcion) {
 				case 1 :
-					System.out.println("opcion1");
+					System.out.println("opcion 1");
 					break;
 				case 2 :
-					System.out.println("opcion2");
+					System.out.println("opcion 2");
 					break;
 				case 3 : 
 					System.out.println("Adios");
 					break;
+				default:
+					System.out.println("Opcion incorrecta");
+					break;
 				}
 		} while (opcion!=3);
+		System.out.println("Fin del programa");
 		
 	
 		input.close();

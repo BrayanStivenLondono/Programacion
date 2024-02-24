@@ -16,15 +16,15 @@ public class Ejercicio01 {
 		
 		// linea por separado
 		System.out.println("Bucle 1");
-		for (int i = 1; i<numero; i++) {
-			System.out.println(i+"" + "");
+		for (int i=1; i<numero; i++) {
+			System.out.print(i+"" + "");
 		}
 		// muestro en la misma linea
 		System.out.println("Bucle 2");
-		for (int i = 1; i<numero; i++) {
+		for (int i=1; i<numero; i++) {
 			System.out.print(i+" ");
 		}
-		System.out.println("MENSAJE");
+		System.out.println(MENSAJE);
 		
 			
 		input.close();

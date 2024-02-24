@@ -22,10 +22,7 @@ public class Ejercicio05 {
 			}
 		}
 		
-		
-		
 		input.close();
-
 	}
 
 }

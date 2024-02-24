@@ -7,8 +7,8 @@ public class Mas01 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
 		System.out.println("Dame 4 letras");
-		
 		String cadena = input.nextLine();
+		
 	    // muertra las cuatro lletras en fila (hacia abajo)
 		System.out.println(cadena.charAt(0)); // 1 letra
 		System.out.println(cadena.charAt(1)); // 2
@@ -28,11 +28,6 @@ public class Mas01 {
 		System.out.println(cadena2.substring(0,3));
 		System.out.println(cadena2.substring(0,4));
 		System.out.println(cadena2);
-
-
-
-
-
 
 		input.close();
 

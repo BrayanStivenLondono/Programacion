@@ -9,7 +9,7 @@ public class Ejercicio27 {
 		// Programa que pide al usuario una cadena de texto, la pasa a minúsculas, y muestra los caracteres de la cadena por separado.
 		// toLowerCase()	Pasa a minuscula
 		System.out.println("Dame una cadena de texto");
-		String cadena = input.nextLine() .toLowerCase(); // todo el texto entrante queda en minuscula
+		String cadena = input.nextLine().toLowerCase(); // todo el texto entrante queda en minuscula
 		
 		int contadorA=0; // [contador]
 		int contadorE=0;
@@ -45,9 +45,6 @@ public class Ejercicio27 {
 		System.out.println("el ratio O " + ((double)contadorO/cadena.length()*100));
 		System.out.println("el ratio U " + ((double)contadorU/cadena.length()*100));
 
-
-	
-		
 		input.close();
 	}
 

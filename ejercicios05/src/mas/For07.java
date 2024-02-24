@@ -14,11 +14,11 @@ public class For07 {
 		int acomulador =0;
 		for (int i=0; i<8; i++) {
 			
-			int bit = numero%10; // cojo el bit menos pesado
-			numero = numero/10; // elimino ese bit
+			int bit = numero%8; // cojo el bit menos pesado
+			numero = numero/8; // elimino ese bit
 			acomulador = acomulador + (int) (Math.pow(2, i)*bit); //acomulador
 		}
-		System.out.println("Su decimal es " + acomulador); // 
+		System.out.println("Su decimal es "+acomulador); // 
 		
 		//-----------------------------------------------------------------------
         // cualquier binario a decimal

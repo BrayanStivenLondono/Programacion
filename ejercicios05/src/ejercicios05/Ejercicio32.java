@@ -9,23 +9,18 @@ public class Ejercicio32 {
 		// Crea una aplicación que dibuje una escalera de números, siendo cada línea números empezando en uno y acabando en el número de la línea.
 		
 		System.out.println("Introduce la altura de la escalera");
-		int altura=input.nextInt();
+		int altura = input.nextInt();
 		
-		for(int i=1; i<=altura; i++ ) {
-			for(int j=1; j<=i; j++ ) {
-
+		for (int i=1; i<=altura; i++ ) {
+			for (int j=1; j<=i; j++ ) {
 				System.out.print(j);
-
 			}
 			System.out.println();
-			//1
-			//12
-			//123
-		
 		}
 		input.close();
-		
-
+		//1
+		//12
+		//123
 	}
 
 }

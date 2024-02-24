@@ -17,13 +17,12 @@ public class Ejercicio09 {
 		// muestro los numeros de ese aleatorio
 		// hasta el -100 de 7 en 7
 		
-		for (int i=enteroAleatrorio;i>=-100; i=i-7) {
-			System.out.println(i);
+		for (int i=enteroAleatrorio; i>=-100; i=i-7) {
+			System.out.print(i+" ");
 			
 		}
 		
 		input.close();
-
 	}
 
 }

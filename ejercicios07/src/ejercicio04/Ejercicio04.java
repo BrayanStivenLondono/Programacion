@@ -1,0 +1,31 @@
+package ejercicio04;
+
+import java.util.Scanner;
+
+import ejercicio03.Ejercicio03;
+
+public class Ejercicio04 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		
+		System.out.println("Dame el tamaño de vector");
+		int tamaño = input.nextInt();
+		//declaro vector con el tamaño pedido
+		char [] letras = new char [tamaño];
+		//relleno con letras aleatorias
+		
+		//imp. Math.Random = (fin-inicio+1)+inicio
+		for (int i=0; i<letras.length; i++) {
+			letras[i] = (char)((Math.random())*('z'-'a'+1)+'a');
+		}
+		System.out.println();
+		Ejercicio03.cambiarLetra(letras);
+		
+		for (int i=0; i<letras.length; i++) {
+			System.out.print(letras[i]+" ");
+		}
+		input.close();
+	}
+
+}

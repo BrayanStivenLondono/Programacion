@@ -11,12 +11,11 @@ public class Ejercicio37 {
 		for (int i=1; i<=1000; i++) {
 			int numero=i;
 			
-			int sumaDivisores =0; //acomulador para despues guardar las uma
+			int sumaDivisores =0; 
 			
 			for (int j=1; j<numero; j++) {
 				if (numero%j==0) {
-					// se guarda y se acomula
-					sumaDivisores=sumaDivisores+j; //acomulador
+					sumaDivisores += j; 
 				}
 			}
 			if (sumaDivisores==numero) {

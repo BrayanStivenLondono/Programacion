@@ -17,13 +17,10 @@ public class Ejercicio14 {
 			//creo un acumulador que sirva para sumar y restar
 			// acomulador=acomulador+litros
 			System.out.println("Introduce litros (positivos echo, negativos extraigo)");
-			// float litros=input.nextFloat();
-			//litrosActuales=litrosActuales+litros;
-			
-			litrosActuales=litrosActuales+input.nextFloat(); // acomulador
+			litrosActuales += input.nextFloat(); // acomulador
 			
 			if (litrosActuales<volumenTotal) {
-				System.out.println("Faltan " + (volumenTotal-litrosActuales) + " litros para llenar deposito");
+				System.out.println("Faltan " +(volumenTotal-litrosActuales) + " litros para llenar deposito");
 			}
 		} while (litrosActuales<volumenTotal); 
 		System.out.println("Se ha llenado el deposito");

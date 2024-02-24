@@ -11,9 +11,7 @@ public class Ejercicio08 {
         
         System.out.println(variableA%2==0 && variableA%3==0? "es multiplo de 2 y de 3" : "no lo es");
 		
-		
-		
-		
+	
 	}
 
 }

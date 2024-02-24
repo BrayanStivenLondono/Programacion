@@ -12,10 +12,10 @@ public class Ejercicio14 {
 		String textoByte = "20";
 		// transformar a numero
 		
-		int entero=Integer.parseInt(textoEntero);
-		long  enteroLargo=Long.parseLong(textoEnteroLargo);
-		double decimal=Double.parseDouble(textoDecimal);
-		byte numByte=Byte.parseByte(textoByte);
+		int entero = Integer.parseInt(textoEntero);
+		long  enteroLargo = Long.parseLong(textoEnteroLargo);
+		double decimal = Double.parseDouble(textoDecimal);
+		byte numByte = Byte.parseByte(textoByte);
 
 		// mostrar
 		

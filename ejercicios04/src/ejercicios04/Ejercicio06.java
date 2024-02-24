@@ -12,7 +12,7 @@ public class Ejercicio06 {
 	    float numero2 = input.nextFloat();
 	    // limpiar buffer // primero numero y luego caracter// asi que se limpia
 	    
-	    input.nextLine(); // limpiado
+	    input.nextLine(); // BUFFER
 	    
 	    System.out.println("Introduce un caracter (+,-,*,/,%)");
 	    char operador = input.nextLine () .charAt(0);
@@ -23,16 +23,16 @@ public class Ejercicio06 {
         	System.out.println(numero1 + numero2);
             break;
         case '-':
-        	System.out.println(numero1 + numero2);
+        	System.out.println(numero1 - numero2);
             break;
         case '*':
-        	System.out.println(numero1 + numero2);
+        	System.out.println(numero1 * numero2);
             break;
         case '/':
-        	System.out.println(numero1 + numero2);
+        	System.out.println(numero1 / numero2);
             break;
         case '%':
-        	System.out.println(numero1 + numero2);
+        	System.out.println(numero1 % numero2);
             break;
          default:
         	 System.out.println("La operación no es posible");

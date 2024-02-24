@@ -34,8 +34,7 @@ public class Ejercicio15 {
 		} else {
 			System.out.println("hora incorrecta");
 		}
-		
-		
+
 		System.out.println("Dame la fecha en formato dia/mes/ano");
 		String fechaCompleta = input.nextLine();
 		// obtener posicion

@@ -20,11 +20,11 @@ public class Ejercicio39 {
 
 			if (numero<0) {
 				contadorNegativo++; // contador
-				sumaNegativos-=numero; 
+				sumaNegativos -= numero; 
 				
 			} else if (numero>0) {
 				contadorPositivo++;
-				sumaPositivos+=numero;
+				sumaPositivos += numero;
 				
 			} else if (numero=='0') {
 				contadorCeros++;

@@ -21,8 +21,8 @@ public class For05 {
 			System.out.println("Introduce un numero");
 			int numero = input.nextInt();
 			
-			resultado = resultado+numero; // ACOMULADOR (IMPORTANTE) (guarda el resultado y lo multiplica por el siguiente
-			System.out.println("el resultado es " + resultado);
+			resultado += numero; // ACOMULADOR (IMPORTANTE) (guarda el resultado y lo multiplica por el siguiente
+			System.out.println("el resultado es " +resultado);
 				
 		}
 		

@@ -8,11 +8,11 @@ public class Ejercicio17 {
 		Scanner input = new Scanner (System.in);
 		
 		System.out.println("introduce dia 1");
-		int dia = input.nextInt();
+		int dia1 = input.nextInt();
 		System.out.println("introduce mes 1");
-		int mes = input.nextInt();
+		int mes1 = input.nextInt();
 		System.out.println("introduce ano 1");
-		int ano = input.nextInt();
+		int ano1 = input.nextInt();
 		
 		System.out.println("introduce dia 2");
 		int dia2 = input.nextInt();
@@ -21,25 +21,16 @@ public class Ejercicio17 {
 		System.out.println("introduce ano 2");
 		int ano2 = input.nextInt();
 		
-		// paso las dos fecha a numero dia
-		int diasFecha1 = dia+mes*30+ano*365;
-		int diasFecha2 = dia2+mes2*30+ano2*365;
+		int diasFecha1 = dia1+mes1*30 + ano1*365;
+		int diasFecha2 = dia2+mes2*30 + ano2*365;
 		
-		//calculo de diferencia
 		int diferencia = diasFecha1-diasFecha2;
 		
-		//if para que siempre me muestre los datos en positivo 
-		//si una la primera fecha es anterior a la segunda
-		//saldra una cantidad negativa
 		if (diferencia<10) {
-			diferencia =- diferencia;
+			diferencia = -diferencia;
 		}
 		System.out.println("diferencia de dias " + diferencia);		
-		
-		
-		
-		
-		
+
 		input.close();
 
 	}

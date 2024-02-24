@@ -15,12 +15,11 @@ public class Ejercicio10 {
 		
 		System.out.println("Dame un numero entero");
         int numero3 = input.nextInt();
-        
-       
+ 
         if (numero1>numero2 && numero1>numero3) {
             
     		System.out.println(numero1 + " es mayor");
-    		System.out.println(numero3 + "es mayor");
+    		System.out.println(numero3 + " es mayor");
     	} 
 	    else if(numero2>numero3){
     		System.out.println(numero2 + " es mayor");
@@ -28,9 +27,7 @@ public class Ejercicio10 {
 	    else {
 	    	System.out.println(numero3 + " es mayor");
 	    }
-    	
 
-		
 		input.close();
 
 	}

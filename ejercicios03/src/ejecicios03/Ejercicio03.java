@@ -13,8 +13,7 @@ public class Ejercicio03 {
 		if (letra>='A' && letra <='Z') {
 			System.out.println("La letra es mayuscula");
 		} else {
-			System.out.println("La letra es minuscula");
-			
+			System.out.println("La letra es minuscula");	
 			
 		input.close();
 		}

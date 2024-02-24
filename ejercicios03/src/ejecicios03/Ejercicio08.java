@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio08 {
 
 	public static void main(String[] args) {
-Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner (System.in);
 		
 		System.out.println("Dame el dividendo (entero)");
 		int dividendo = input.nextInt();
@@ -23,7 +23,6 @@ Scanner input = new Scanner (System.in);
 			System.out.println("no se puede hacer la operacion");
 
 		}
-		
 	
 		input.close();
 

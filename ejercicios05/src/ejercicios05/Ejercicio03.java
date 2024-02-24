@@ -28,8 +28,7 @@ public class Ejercicio03 {
 		//5
 		//4
 		//3
-		
-		
+			
 		input.close();
 	}
 

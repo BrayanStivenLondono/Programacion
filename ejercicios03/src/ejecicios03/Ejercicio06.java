@@ -16,11 +16,9 @@ public class Ejercicio06 {
 		} else { 
 			System.out.println("No es una cifra");
 		}
-		
-		
-		
+
 		input.close();
 	}
 
-	}
+}
 

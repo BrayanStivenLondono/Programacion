@@ -15,16 +15,9 @@ public class Ejercicio05 {
 		System.out.println("dame otra cadena ");
 		String cadena2 = input.nextLine();
 		
-		System.out.println(cadena1.equals(cadena2)?"Las cadenas son iguales ": "Las cadenas son diferentes");
+		System.out.println(cadena1.equals(cadena2)?"Las cadenas son iguales " : "Las cadenas son diferentes");
 		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		input.close();
 		
 

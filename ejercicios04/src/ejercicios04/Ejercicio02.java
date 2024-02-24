@@ -61,13 +61,7 @@ public class Ejercicio02 {
 		} else {
 			System.out.println("los gramos no pueden ser negativos");
 		}
-		
-		
-		
-		
-		
-		
-		
+	
 		input.close();
 
 

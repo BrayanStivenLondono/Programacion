@@ -41,16 +41,7 @@ public class EjercicioPrevio01 {
 		int miNumero = 38;
 		System.out.println(miNumero);
 		System.out.println((char)miNumero);
-		
-		
 
-		
-		
-		
-		
-		
-		
-		
 
 	}
 

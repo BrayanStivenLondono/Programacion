@@ -9,12 +9,12 @@ public class Ejercicio08 {
 		
 		
 		for (char i='A'; i<='Z'; i++) {
-			System.out.println(i);
+			System.out.print(i+" ");
 			
 			//ademas de imprimir todas
 			//cuando la encuentra la N, pone la N y la Ñ
 			if (i == 'N') {
-				System.out.println("Ñ");
+				System.out.print("Ñ");
 			}
 			// otra forma 
 			//   int  (i=65; i<91; i++)  <tabla ASCII

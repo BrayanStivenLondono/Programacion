@@ -20,14 +20,9 @@ public class DoWhile02 {
 			total = total+numLeido;
 
 		} while (numLeido!=0);
-		System.out.println("El total de numeros leidos es "+(contadorNumLeido-1));
-		System.out.println("La suma de los numeros es "+total);//-1 para no sumar el (0) 
-
-
-		
-		
-		
-		
+		System.out.println("El total de numeros leidos es "+(contadorNumLeido-1)); //-1 para no sumar el (0) 
+		System.out.println("La suma de los numeros es "+total); 
+	
 		input.close();
 	}
 

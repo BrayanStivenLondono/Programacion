@@ -14,12 +14,8 @@ public class Mas02 {
 		String cadena2 = input.nextLine();
 		
 		System.out.println("Iguales ? " + cadena1.equals(cadena2));
-		
-		
-		
-		
+
 		input.close();
-		
 		
 	}
 

@@ -5,31 +5,33 @@ import java.util.Scanner;
 public class Ejercicio29 {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner (System.in);
-		// pida cadenas de texto hasta introducir la cadena de texto “fin”.
-		// Posteriormente me dirá la cantidad de vocales (mayúsculas o minúsculas) y el porcentaje de vocales respecto al total de caracteres.
-		String cadena;
+		Scanner input = new Scanner(System.in);
 		
-		int contadorVocal=0;
-		int contadorPalabras=0;
+		String cadena;	
+		int contadorVocales =0;
+		int contadorTotalCaracteres =0;
+		String cadenaTotal ="";
 		
+		do {
+			System.out.println("Introduce una cadena");
+			cadena = input.nextLine().toLowerCase();		
+			
+			contadorTotalCaracteres += cadena.length();
+			
+			for (int i=0; i<cadena.length(); i++) {
+				char letra = cadena.charAt(i);
+				if (letra=='a' || letra=='e'|| letra=='i'||letra=='o'||letra=='u') {
+					contadorVocales++;
+				}
+			}	
+			cadenaTotal += cadena;
+		}while(!cadena.equals("fin"));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("Cantidad vocales: "+contadorVocales);
+		System.out.println("Porcentaje vocales: "+((double)contadorVocales/contadorTotalCaracteres*100)+"%");
+		System.out.println("Cadena total: \n"+cadenaTotal);
 		
 		input.close();
-		
 
 	}
 

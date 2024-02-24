@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class Ejercicio05 {
 
 	public static void main(String[] args) {
-		//
-		
 		Scanner input = new Scanner (System.in);
+		
 		System.out.println("Dame una letra");
 		char letra1 = input.nextLine().charAt(0);
 		

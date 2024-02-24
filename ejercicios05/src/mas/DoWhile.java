@@ -6,15 +6,15 @@ public class DoWhile {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
-		// Do-while se usa cuando queremos que se ejecute al menos unavez
+		// Do-while se usa cuando queremos que se ejecute al menos una vez
 		
 		System.out.println("Introduce un numero");
 		int numeroLeido = input.nextInt();
 		int contador = numeroLeido;
 		
 		do {
-			System.out.print(contador);
-			contador--; //++ bucle infinito
+			System.out.print(contador+ " ");
+			contador--; 
 			
 		} while (contador>0);
 		// 5
@@ -29,7 +29,7 @@ public class DoWhile {
 			if (numero<0) {
 				System.out.println("El numero es negatico");
 			}
-		} while (numero<=0); //aparece error, (solo hay que hacer el input/entrnate)
+		} while (numero<=0); //Se repite hasta engresa el numero positivo
 	
 		System.out.println("Has introducido un numero positivo");
 		

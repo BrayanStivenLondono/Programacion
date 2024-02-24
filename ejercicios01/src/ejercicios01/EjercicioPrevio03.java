@@ -16,7 +16,7 @@ public class EjercicioPrevio03 {
 
         String numero = "45";
         System.out.println(numero);
-        int numero1=Integer.parseInt(numero);
+        int numero1 = Integer.parseInt(numero);
         System.out.println(numero);
 
 

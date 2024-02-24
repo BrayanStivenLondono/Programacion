@@ -9,23 +9,35 @@ public class Ejercicio31 {
 		// Comprobar si un numero introducido por teclado es perfecto. Un número es perfecto si es
 		// igual a la suma de todos sus divisores positivos sin incluir el propio número.
 		
-		System.out.println("Introduce un numero");
-		int numero = input.nextInt();
-		int sumaDivisor =0;
+		int numero =0;
+		int perfectos =0;
+		int noPerfectos =0;
 		
-		for (int i=2; i<=numero; i++) {
+		do {
+			System.out.println("Introduce un numero");
+			numero = input.nextInt();
 			
-			
-			
-		}
+		    int sumaDivisores=0;
 		
-	
-	
-	
-	
-	
-	
-	input.close();
+		    for (int i=1; i<numero; i++) {
+			if (numero%i==0) {
+				sumaDivisores += i;
+				
+				}		
+			}
+			if (sumaDivisores==numero) {
+				perfectos++;
+				System.out.println("Es numero perfecto");
+			} else {
+				noPerfectos++;
+				System.out.println("No es numero perfecto");
+			}
+	} while (numero>0);
+		
+		System.out.println("La cantidad de numeros perfectos es: "+perfectos);
+		System.out.println("La cantidad de numero no-perfectos es: "+(noPerfectos-1));
+		
+		input.close();
 	
 	}
 
