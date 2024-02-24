@@ -12,7 +12,7 @@ public class Principal {
 		Profesor obProfe4 = new Profesor ();
 		Profesor obProfe5 = new Profesor ("Juan","Perez","DAW");
 		
-		rellenarProfesor (obProfe1);
+		rellenarProfesor (obProfe1);//pido datos/SET
 		rellenarProfesor (obProfe2);
 		rellenarProfesor (obProfe3);
 		rellenarProfesor (obProfe4);
@@ -27,7 +27,7 @@ public class Principal {
 		System.out.println(obProfe4);
 		System.out.println("Profe5");
 		System.out.println(obProfe5);
-		mostrarProfesor(obProfe5);//rellado directamente arriba
+		mostrarProfesor(obProfe5); //rellado directamente arriba
 
 		input.close();
 	}
