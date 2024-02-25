@@ -25,7 +25,7 @@ public class Principal {
 		}
 		for (int i=0; i<listaCoches.length; i++) {
 			Vehiculo.mostrarDatosVehiculo(listaCoches[i]);
-			//o
+			System.out.println(listaCoches[i].getVehiculoCreados());
 		}
 		input.close();
 	}

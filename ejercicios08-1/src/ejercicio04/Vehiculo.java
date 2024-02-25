@@ -70,7 +70,7 @@ public class Vehiculo {
 	public void setFunciona(boolean funciona) {
 		this.funciona = funciona;
 	}
-	public static int getVehiculoCreados() {
+	public int getVehiculoCreados() {
 		return vehiculoCreados;
 	}
 	
@@ -94,7 +94,7 @@ public class Vehiculo {
 		System.out.println("Tipo: "+coches.getTipo());
 		System.out.println("Consumo: "+coches.getConsumo());
 		System.out.println("Numero ruedas: "+coches.getNumRuedas());
-		System.out.println("Funciona "+coches.isFunciona());
+		System.out.println("Funciona: "+coches.isFunciona());
 		System.out.println("Km: "+coches.getKmTotales());
 	}
 }
