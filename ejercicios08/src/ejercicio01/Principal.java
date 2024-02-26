@@ -34,13 +34,14 @@ public class Principal {
 	public static void rellenarProfesor (Profesor objetoProfesor) {//set
 		System.out.println("Dame el nombre");
 		String nombre = input.nextLine();
+		objetoProfesor.setNombre(nombre);
+		
 		System.out.println("Dame los apellidos");
 		String apellidos = input.nextLine();
+		objetoProfesor.setApellidos(apellidos);
+		
 		System.out.println("Dime el ciclo");
 		String ciclo = input.nextLine();
-		
-		objetoProfesor.setNombre(nombre);
-		objetoProfesor.setApellidos(apellidos);
 		objetoProfesor.setCiclo(ciclo);
 		
 	}

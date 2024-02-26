@@ -34,10 +34,10 @@ public class Principal {
 		System.out.println("Coche 3");
 		System.out.println("Introduce el marca");
 		marca = input.nextLine();
-		coche3.setTipo(tipo);
+		coche3.setMarca(marca);
 		System.out.println("Introduce la tipo");
 		tipo = input.nextLine();
-		coche3.setMarca(marca);
+		coche3.setTipo(tipo);
 		System.out.println("Introduce el consumo");
 		consumo = input.nextFloat();
 		coche3.setConsumo(consumo);
@@ -49,6 +49,18 @@ public class Principal {
 		mostrarDatosVehiculo(coche2);
 		mostrarDatosVehiculo(coche3);
 		
+		System.out.println("cambio los km del vehiculo1");
+		coche1.trucarCuentaKm(57000);
+		System.out.println("Estimo el combustible consumido vehiculo1");
+		float estimacion=coche1.combustibleConsumido();
+		System.out.println(estimacion);
+		System.out.println("reseteo cuentakm vehiculo1");
+		coche1.trucarCuentaKm();
+		System.out.println("Estimo combustible para 40km vehiculo1");
+		estimacion=coche1.combustibleConsumido(40);
+		System.out.println(estimacion);
+		
+		input.close();
 	}
 	public static void mostrarDatosVehiculo (Vehiculo coches) {
 		System.out.println("\nMarca: "+coches.getMarca());

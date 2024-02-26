@@ -16,14 +16,14 @@ public class Principal {
 		System.out.println("Año publicacion: "+lib1.getAñoPublicacion());
 		System.out.println("Editorial: "+lib1.getEditorial());
 		System.out.println("Precio: "+lib1.getPrecio());
-		
+		System.out.println("________________________________________________");
 		System.out.println("\nLibro 2");
 		System.out.println("Titulo: "+lib2.getTitulo());
 		System.out.println("Autor: "+lib2.getAutor());
 		System.out.println("Año publicacion: "+lib2.getAñoPublicacion());
 		System.out.println("Editorial: "+lib2.getEditorial());
 		System.out.println("Precio: "+lib2.getPrecio());
-		
+		System.out.println("________________________________________________");
 		System.out.println("\nLibro 3");
 		System.out.println("Titulo: "+lib3.getTitulo());
 		System.out.println("Autor: "+lib3.getAutor());
@@ -31,13 +31,13 @@ public class Principal {
 		System.out.println("Editorial: "+lib3.getEditorial());
 		System.out.println("Precio: "+lib3.getPrecio());
 		
-		//precioConIva
+		//precioConIva (constante)
 		final float IVA=21F;
 		
 		System.out.println("\nPrecios con iva");
-		System.out.println(Libro.PrecioConIva(lib1.getPrecio(), IVA));
-		System.out.println(Libro.PrecioConIva(lib2.getPrecio(), IVA));
-		System.out.println(Libro.PrecioConIva(lib3.getPrecio(), IVA));
+		System.out.println("1. Libro: "+Libro.PrecioConIva(lib1.getPrecio(), IVA));
+		System.out.println("2. Libro: "+Libro.PrecioConIva(lib2.getPrecio(), IVA));
+		System.out.println("3. Libro: "+Libro.PrecioConIva(lib3.getPrecio(), IVA));
 	}
 
 }
