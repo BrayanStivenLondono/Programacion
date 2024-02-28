@@ -17,8 +17,9 @@
 <fullyQualifiedTypeName name="java.lang.Void"/>
 <fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
 <fullyQualifiedTypeName name="refactorizar3.OpcionesMenu"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="ejercicio05.ProfesorTitular"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="clases.TallerVehiculos"/>
 </qualifiedTypeNameHistroy>
