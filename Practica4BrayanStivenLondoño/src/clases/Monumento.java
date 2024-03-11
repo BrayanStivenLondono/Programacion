@@ -5,13 +5,30 @@ public class Monumento {
 	private String ubicacion;
 	private int anyosAntiguedad;
 	private String material;
-	private String estilo;
 	private String disponible;
+	private Estilo estilo;
 	
-	public Monumento(String nombre) {
+	/**
+	 * Constructor de la clase Monumento
+	 * 
+	 * @param nombre El nombre del monumento
+	 * @param ubicacion Pais donde esta en monumento
+	 * @param anyosAntiguedad Antiguedad del monumento en anyos
+	 * @param material El material principal del monumento
+	 * @param disponible Indica si el monumento esta disponible para ser visitado (si/no)
+	 * @param estilo El estilo arquitectonico del monumento
+	 * 
+	 */
+	public Monumento(String nombre, String ubicacion, int anyosAntiguedad, String material, String disponible,
+			Estilo estilo) {
 		this.nombre = nombre;
+		this.ubicacion = ubicacion;
+		this.anyosAntiguedad = anyosAntiguedad;
+		this.material = material;
+		this.disponible = disponible;
+		this.estilo = estilo;
 	}
-
+	
 	//setter y getter
 	public String getNombre() {
 		return nombre;
@@ -37,26 +54,29 @@ public class Monumento {
 	public void setMaterial(String material) {
 		this.material = material;
 	}
-	public String getEstilo() {
-		return estilo;
-	}
-	public void setEstilo(String estilo) {
-		this.estilo = estilo;
-	}
-	public String isDisponible() {
+	public String getDisponible() {
 		return disponible;
 	}
 	public void setDisponible(String disponible) {
 		this.disponible = disponible;
 	}
-	
+	public Estilo getEstilo() {
+		return estilo;
+	}
+	public void setEstilo(Estilo estilo) {
+		this.estilo = estilo;
+	}
+
+	/**
+	 * Metodo que muestra los atributos por pantall
+	 */
 	@Override
 	public String toString() {
 		return  "\nNombre: " + nombre + 
 				"\nUbicacion: " + ubicacion + 
 				"\nAnyosAntiguedad: " + anyosAntiguedad + 
 				"\nMaterial: " + material + 
-				"\nEstilo: " + estilo + 
-				"\nDisponible: " + disponible;
+				"\nDisponible: " + disponible + 
+				estilo;
 	}
 }
