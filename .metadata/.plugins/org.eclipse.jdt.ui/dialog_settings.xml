@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\JUnitARTest\src" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Examen2\src\examen" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="0" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="false" key="delegateUpdating"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
@@ -201,6 +205,14 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="Examen1/src/examen/Unidad.jar"/>
+			<item value="Refactorizar2\src\ejercicio6\Unidad.jar"/>
+			<item value="Refactorizar2\src\ejercicio5\Unidad.jar"/>
+			<item value="Refactorizar2\src\ejercicio4\Unidad.jar"/>
+			<item value="Refactorizar2\src\ejercicio3\Unidad.jar"/>
+			<item value="Refactorizar2/src/ejercicio2/Unidad.jar"/>
+			<item value="Refactorizar2/src/ejercicio1/Unidad.jar"/>
+			<item value="Refactorizar1/src/refactorizar8/Unidad.jar"/>
 			<item value="Refactorizar1\src\refactorizar5\Unidad.jar"/>
 			<item value="Refactorizar1/src/refactorizar5/Unidad.jar"/>
 		</list>

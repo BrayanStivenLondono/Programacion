@@ -7,8 +7,8 @@ public class Vehiculo {
 	 * Constructor con diferente atributos
 	 * 
 	 * @param vehiculosCreado int calcula la cantidad de vehiculos
-	 * @param tipo String pide una cadena de testo
-	 * @param marca String pide una cadena de testo
+	 * @param tipo String pide una cadena de texto
+	 * @param marca String pide una cadena de texto
 	 * @param consumo float pide un float
 	 * @param kmTotales float pide una cadena de testo
 	 * @param numRuedas int pide numeros enteros

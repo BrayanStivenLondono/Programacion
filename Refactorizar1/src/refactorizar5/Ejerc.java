@@ -16,6 +16,7 @@ public class Ejerc {
 			
 			input.close();
 
+			
 			switch (opcionUnidadAConvertir) {
 			case 1:
 				double kilogramos = gramos / 1000.0; //cambio el double del double a kilogramos mas descriptivo
