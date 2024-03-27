@@ -14,7 +14,7 @@ public class Principal {
 		String modelo = input.nextLine();
 		System.out.println("Dame la autonomia");
 		int autonomia = input.nextInt();
-		System.out.println("Dame el kilimetraje");
+		System.out.println("Dame el kilometraje");
 		float kilometraje = input.nextFloat();
 		
 		//con esos datos llamamoa al constuctor con parametros

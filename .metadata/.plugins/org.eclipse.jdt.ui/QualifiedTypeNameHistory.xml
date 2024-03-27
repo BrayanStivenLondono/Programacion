@@ -18,7 +18,6 @@
 <fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
 <fullyQualifiedTypeName name="refactorizar3.OpcionesMenu"/>
 <fullyQualifiedTypeName name="ejercicio05.ProfesorTitular"/>
-<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 <fullyQualifiedTypeName name="clases.TallerVehiculos"/>
 <fullyQualifiedTypeName name="clases.Fruteria"/>
 <fullyQualifiedTypeName name="clases.Frutas"/>
@@ -26,7 +25,6 @@
 <fullyQualifiedTypeName name="clases.Zoo"/>
 <fullyQualifiedTypeName name="clases.Visita"/>
 <fullyQualifiedTypeName name="clases.Monumento"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
 <fullyQualifiedTypeName name="clases.GestorMonumentos"/>
 <fullyQualifiedTypeName name="programa.ProgramaMonumento"/>
@@ -45,4 +43,10 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="metodosgeneradores.MetodosGeneradorContrasenas"/>
+<fullyQualifiedTypeName name="cargaestilo.CargaDatosAndEstilo"/>
+<fullyQualifiedTypeName name="altayestilo.AltasYEstilos"/>
+<fullyQualifiedTypeName name="ejercicio08_7.Fruteria"/>
+<fullyQualifiedTypeName name="ejercicio08_7.Proveedor"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 </qualifiedTypeNameHistroy>

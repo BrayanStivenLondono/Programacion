@@ -3,8 +3,9 @@
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
-	<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Examen2\src\examen" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica4BrayanStivenLondoño\src" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="0" key="TypeHierarchyViewPart.hierarchyview"/>
+	<item value="filter_imports;" key="filters_last_used"/>
 	<item value="false" key="delegateUpdating"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
@@ -39,7 +40,7 @@
 	<section name="javadoc">
 		<item value="public" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-1\javadoc.xml" key="antpath"/>
+		<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica4BrayanStivenLondoño\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
@@ -53,19 +54,9 @@
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-1\doc" key="destdir"/>
+		<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica4BrayanStivenLondoño\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
-			<section name="ejercicios07">
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios07\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios07\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="ejercicios06">
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios06\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios06\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
 			<section name="ejerciciosPersonales">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejerciciosPersonales\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejerciciosPersonales\doc" key="destdir"/>
@@ -74,11 +65,6 @@
 			<section name="ExamenParcialBrayanStivenLondoñoBalanta">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ExamenParcialBrayanStivenLondoñoBalanta\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ExamenParcialBrayanStivenLondoñoBalanta\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="ejercicios08">
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="practicasPersonales">
@@ -91,6 +77,76 @@
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejerciciosExamenes\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="ejercicios08-7">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-7\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-7\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="entornos">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\entornos\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\entornos\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-6">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-6\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-6\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-5">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-5\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-5\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-4">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-4\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-4\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-3">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-3\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-2">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-1">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Examen2">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Examen2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Examen2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Practica4BrayanStivenLondoño">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica4BrayanStivenLondoño\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica4BrayanStivenLondoño\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios07">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios07\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios07\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios06">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios06\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios06\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08-15">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-15\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-15\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicios08">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="ejercicios01">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios01\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios01\doc" key="destdir"/>
@@ -99,11 +155,6 @@
 			<section name="ejercicios00">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios00\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios00\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="entornos">
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\entornos\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\entornos\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="ejercicios03">
@@ -126,19 +177,14 @@
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios04\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="Refactorizar1">
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Refactorizar1\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Refactorizar1\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
 			<section name="ejercicios07Basico">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios07Basico\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios07Basico\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="ejercicios08-1">
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-1\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\ejercicios08-1\doc" key="destdir"/>
+			<section name="Refactorizar1">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Refactorizar1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Refactorizar1\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="ejercicios07Extras">
@@ -149,6 +195,11 @@
 			<section name="Practica3BrayanStivenLondoñoBalanta">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica3BrayanStivenLondoñoBalanta\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Practica3BrayanStivenLondoñoBalanta\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Refactorizar2">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Refactorizar2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Refactorizar2\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="ejercicios05BuclesExtra">
@@ -164,6 +215,11 @@
 			<section name="Proyecto 00">
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Proyecto 00\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\Proyecto 00\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JUnitARTest">
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\JUnitARTest\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Brayan Stiven\OneDrive\Escritorio\Programación\JUnitARTest\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>
@@ -205,6 +261,7 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="Practica4BrayanStivenLondoño/src/Unidad.jar"/>
 			<item value="Examen1/src/examen/Unidad.jar"/>
 			<item value="Refactorizar2\src\ejercicio6\Unidad.jar"/>
 			<item value="Refactorizar2\src\ejercicio5\Unidad.jar"/>

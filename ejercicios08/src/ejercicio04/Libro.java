@@ -15,7 +15,6 @@ public class Libro {
 	}
 	//constrctor con parametros
 	public Libro (String titulo, String autor, int añoPublicacion, String editorial, float precio) {
-		super();
 		this.titulo = titulo;
 		this.autor = autor;
 		this.añoPublicacion = añoPublicacion;

@@ -27,7 +27,7 @@ public class Ejercicio03 {
 		System.out.println("\nLa frase es: "+frases[elegida]);//imp
 		
 		//cuento espacios o vocales/conso/mayus/minus
-		int cantidadEspacios =0;
+		int cantidadEspacios = 0;
 		for (int i=0; i<frases[elegida].length(); i++) {
 			if (frases[elegida].charAt(i)==' ') {
 				cantidadEspacios++;

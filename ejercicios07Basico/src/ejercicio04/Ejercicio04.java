@@ -15,7 +15,7 @@ public class Ejercicio04 {
 		for (int i=0; i<miVector.length; i++) {
 			System.out.println("Introduce el valor "+i+ " de la multiplicacion");
 			miVector[i] = input.nextInt();
-			multiplica = multiplica*miVector [i];
+			multiplica *= miVector[i];
 		}
 		System.out.println("La multiplicacion es "+multiplica);
 

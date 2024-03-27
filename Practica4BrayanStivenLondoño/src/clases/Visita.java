@@ -1,31 +1,34 @@
 package clases;
 
 public class Visita {
-	
+
 	private Monumento[] monumento;
-	private Arquitecto[] arquitecto;
-	
-	public Visita (int maxMonumentos, int maxArquitectos) {
-		this.monumento = new Monumento [maxMonumentos];
-		this.arquitecto = new Arquitecto [maxArquitectos];
+	private EdificioHistorico[] edificio;
+
+	public Visita(int maxMonumentos, int maxEdificios) {
+		this.monumento = new Monumento[maxMonumentos];
+		this.edificio = new EdificioHistorico[maxEdificios];
 	}
+
 	/**
 	 * @author Brayan Stiven
 	 * 
-	 * Da de alta un nuevo monumento en la lista de monumentos
+	 *         Da de alta un nuevo monumento en la lista de monumentos
 	 * 
-	 * @param nombre El nombre del monumento
-	 * @param ubicacion Pais donde esta en monumento
+	 * @param nombre          El nombre del monumento
+	 * @param ubicacion       Pais donde esta en monumento
 	 * @param anyosAntiguedad Antiguedad del monumento en anyos
-	 * @param material El material principal del monumento
-	 * @param disponible Indica si el monumento esta disponible para ser visitado (si/no)
-	 * @param estilo El estilo arquitectonico del monumento
+	 * @param material        El material principal del monumento
+	 * @param disponible      Indica si el monumento esta disponible para ser
+	 *                        visitado (si/no)
+	 * @param estilo          El estilo arquitectonico del monumento
 	 * 
 	 */
-	public void altaMonumento (String nombre, String ubicacion, int anyosAntiguedad, String material, String disponible, Estilo estilo) {
+	public void altaMonumento(String nombre, String ubicacion, int anyosAntiguedad, String material, String disponible,
+			Estilo estilo) {
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]==null) {
-				monumento[i] = new Monumento (nombre, ubicacion, anyosAntiguedad, material, disponible, estilo);
+			if (monumento[i] == null) {
+				monumento[i] = new Monumento(nombre, ubicacion, anyosAntiguedad, material, disponible, estilo);
 				monumento[i].setUbicacion(ubicacion);
 				monumento[i].setAnyosAntiguedad(anyosAntiguedad);
 				monumento[i].setMaterial(material);
@@ -35,29 +38,32 @@ public class Visita {
 			}
 		}
 	}
+
 	/**
 	 *
-	 * Da de alta un nuevo arquitecto en la lista de arquitectos
+	 * Da de alta un nuevo edificio en la lista de edificioHistorico
 	 * 
-	 * @param nombre El nombre del arquitecto
-	 * @param apellido El apellido del arquitecto
- 	 * @param nacionalidad El pais donde nacio el arquitecto
-	 * @param edad Edad del arquitecto, anyos vividos en caso de no estar vivo
-	 * @param estilo El estilo aquitectonico del arquitecto
+	 * @param nombre    El nombre del edificio
+	 * @param ubicacion Pais donde se encuentra en edificio
+	 * @param edad      Años que tiene el edificio
+	 * @param material  Material principal del edificio
+	 * @param estilo    El estilo aquitectonico del edificio
 	 * 
 	 */
-	public void altaArquitecto (String nombre, String apellido, String nacionalidad, int edad, Estilo estilo) {
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]==null) {
-				arquitecto[i] = new Arquitecto (nombre, apellido, nacionalidad, edad, estilo);
-				arquitecto[i].setApellido(apellido);
-				arquitecto[i].setNacionalidad(nacionalidad);				
-				arquitecto[i].setEdad(edad);
-				arquitecto[i].setEstilo(estilo);
+	public void altaEdificioHistorico(String nombre, String ubicacion, int edad, String material, Estilo estilo) {
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] == null) {
+				edificio[i] = new EdificioHistorico(nombre, ubicacion, edad, material, estilo);
+				edificio[i].setNombre(nombre);
+				edificio[i].setUbicacion(ubicacion);
+				edificio[i].setEdad(edad);
+				edificio[i].setMaterial(material);
+				edificio[i].setEstilo(estilo);
 				break;
 			}
 		}
 	}
+
 	/**
 	 * Busca un monumento en la lista de monumentos por su nombre
 	 * 
@@ -65,9 +71,9 @@ public class Visita {
 	 * @return El monumento encotrado si se encuentra, null en caso contrario
 	 * 
 	 */
-	public Monumento buscarMonumento (String nombre) {
+	public Monumento buscarMonumento(String nombre) {
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]!=null) {
+			if (monumento[i] != null) {
 				if (monumento[i].getNombre().equals(nombre)) {
 					return monumento[i];
 				}
@@ -75,199 +81,213 @@ public class Visita {
 		}
 		return null;
 	}
+
 	/**
-	 * Busca un arquitecto por su nombre, en la lista de arquitectos
+	 * Busca un edificio por su nombre, en la lista de edificio
 	 * 
-	 * @param nombre El nombre del arquitecto a buscar
-	 * @return El arquitecto si no encuentra, null en caso contrario
+	 * @param nombre El nombre del edificio a buscar
+	 * @return devuelve El edificio si lo encuentra, null en caso contrario
 	 */
-	public Arquitecto buscarArquitecto (String nombre) {
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]!=null) {
-				if (arquitecto[i].getNombre().equals(nombre)) {
-					return arquitecto[i];
-				} 
+	public EdificioHistorico buscarEdificioHistorico(String nombre) {
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] != null) {
+				if (edificio[i].getNombre().equals(nombre)) {
+					return edificio[i];
+				}
 			}
 		}
 		return null;
 	}
+
 	/**
 	 * Metodo que elimina un monumento de las lista de monumento
-	 * @param nombre El nombre del monumento a bucar, si lo encuentra pasara a sel null, no en caso contrario
+	 * 
+	 * @param nombre El nombre del monumento a bucar, si lo encuentra pasara a sel
+	 *               null, no en caso contrario
 	 */
-	public void eliminarMonumento (String nombre) {
+	public void eliminarMonumento(String nombre) {
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]!=null) {
+			if (monumento[i] != null) {
 				if (monumento[i].getNombre().equals(nombre)) {
 					monumento[i] = null;
-				} 
-			}
-		}
-	}
-	/**
-	 * Metodo que elimina un arquitecto de la lista de arquitectos
-	 * 
-	 * @param nombre El nombre del arquitecto a buscar, si lo encientra pasara a ser null, no en caso contrario
-	 */
-	public void eliminarArquitecto (String nombre) {
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]!=null) {
-				if (arquitecto[i].getNombre().equals(nombre)) {
-					arquitecto[i] = null;
 				}
 			}
 		}
 	}
+
+	/**
+	 * Metodo que elimina un edificio de la lista de edificio
+	 * 
+	 * @param nombre El nombre del edificio a buscar, si lo encientra pasara a ser
+	 *               null, no en caso contrario
+	 */
+	public void eliminarEdificioHistorico(String nombre) {
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] != null) {
+				if (edificio[i].getNombre().equals(nombre)) {
+					edificio[i] = null;
+				}
+			}
+		}
+	}
+
 	/**
 	 * Metodo que muestra la lista de los monumentos dados de baja
 	 */
-	public void listarMonumento () {
+	public void listarMonumento() {
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]!=null) {
+			if (monumento[i] != null) {
 				System.out.println(monumento[i]);
 			}
 		}
 	}
+
 	/**
-	 * Metodo que muestra la lista de los arquitectos dados de baja
+	 * Metodo que muestra la lista de los edificios dados de baja
 	 */
-	public void listarArquitecto () {
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]!=null) {
-				System.out.println(arquitecto[i]);
+	public void listarEdificioHistorico() {
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] != null) {
+				System.out.println(edificio[i]);
 			}
 		}
 	}
+
 	/**
 	 * Metodo que cambia el nombre de un monumento
 	 * 
-	 * @param monumentoACambiar El nombre del monumento que se quiere cambiar
+	 * @param monumentoACambiar    El nombre del monumento que se quiere cambiar
 	 * @param nuevoNombreMonumento El nuevo nombre que se le dara al monumento
 	 */
-	public void cambiarNombreMonumento (String monumentoACambiar, String nuevoNombreMonumento) {
+	public void cambiarNombreMonumento(String monumentoACambiar, String nuevoNombreMonumento) {
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]!=null) {
+			if (monumento[i] != null) {
 				if (monumento[i].getNombre().equals(monumentoACambiar)) {
 					monumento[i].setNombre(nuevoNombreMonumento);
 				}
 			}
 		}
 	}
+
 	/**
-	 * Metodo que cambia el nombre de un arquitecto
+	 * Metodo que cambia el nombre de un edificio
 	 * 
-	 * @param arquitectoACambiar El nombre del arquitecto se que quiere cambiar
-	 * @param nuevoNombreArquitecto El nuevo del nombre del arquitecto
+	 * @param edificioACambiar    El nombre del edificio se que quiere cambiar
+	 * @param nuevoNombreEdificio El nuevo del nombre del edificio
 	 */
-	public void cambiarNombreArquitecto (String arquitectoACambiar, String nuevoNombreArquitecto) {
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]!=null) {
-				if (arquitecto[i].getNombre().equals(arquitectoACambiar)) {
-					arquitecto[i].setNombre(nuevoNombreArquitecto);
+	public void cambiarNombreEdificioHistorico(String edificioACambiar, String nuevoNombreEdificio) {
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] != null) {
+				if (edificio[i].getNombre().equals(edificioACambiar)) {
+					edificio[i].setNombre(nuevoNombreEdificio);
 				}
 			}
 		}
 	}
+
 	/**
 	 * Metodo que lista los monumentos por su material
 	 * 
 	 * @param materialAListar El material que con el que se listara los monumento
 	 */
-	public void listarMonumentoPorMaterial (String materialAListar) {
+	public void listarMonumentoPorMaterial(String materialAListar) {
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]!=null) {
+			if (monumento[i] != null) {
 				if (monumento[i].getMaterial().equals(materialAListar)) {
 					System.out.println(monumento[i]);
 				}
 			}
 		}
 	}
+
 	/**
-	 * Metodo que lista lo arquitectos apartir de un entero, mostrara los arquitectos menores o igual a esa edad
+	 * Metodo que lista lo edificios apartir de un entero, mostrara los edificio
+	 * menores o igual a esa edad
 	 * 
 	 * @param edadAListar La edad con que se va a listar
 	 */
-	public void listarArquitectoPorEdad(int edadAListar) {
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]!=null) {
-				if (arquitecto[i].getEdad()>=(edadAListar)) {
-					System.out.println(arquitecto[i]);
+	public void listarEdificioHistoricoPorEdad(int edadAListar) {
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] != null) {
+				if (edificio[i].getEdad() >= (edadAListar)) {
+					System.out.println(edificio[i]);
 				}
 			}
 		}
 	}
+
 	/**
-	 * Metodo que calcula la cantidad de monumentos, promedio edad de los monumentos,monumento con la mayor y menor edad
+	 * Metodo que calcula la cantidad de monumentos, promedio edad de los
+	 * monumentos,monumento con la mayor y menor edad
 	 * 
-	 * @param cantidadMonumentos Calcula la cantidad de monumentos
+	 * @param cantidadMonumentos     Calcula la cantidad de monumentos
 	 * @param promedioEdadMonumentos Calcula la edad promedio de los monumentos
-	 * @param monumentoMenorEdad Calcula cual es el monumento más actual
-	 * @param monumentoMayorEdad Calcula cual es el monumento más antiguo
+	 * @param monumentoMenorEdad     Calcula cual es el monumento más actual
+	 * @param monumentoMayorEdad     Calcula cual es el monumento más antiguo
 	 * 
 	 */
-	public void estadisticasMonumento () {
+	public void estadisticasMonumento() {
 		int cantidadMonumentos = 0;
 		double totalAnyosMonumentos = 0;
 		double promedioEdadMonumentos = 0;
 		Monumento monumentoMenorEdad = null;
 		Monumento monumentoMayorEdad = null;
 		for (int i = 0; i < monumento.length; i++) {
-			if (monumento[i]!=null) {
+			if (monumento[i] != null) {
 				cantidadMonumentos++;
-				totalAnyosMonumentos += monumento[i].getAnyosAntiguedad();			
-				promedioEdadMonumentos = totalAnyosMonumentos/cantidadMonumentos;
-				
-				if (monumentoMenorEdad==null || monumento[i].getAnyosAntiguedad() < monumentoMenorEdad.getAnyosAntiguedad()) {
+				totalAnyosMonumentos += monumento[i].getAnyosAntiguedad();
+				promedioEdadMonumentos = totalAnyosMonumentos / cantidadMonumentos;
+
+				if (monumentoMenorEdad == null
+						|| monumento[i].getAnyosAntiguedad() < monumentoMenorEdad.getAnyosAntiguedad()) {
 					monumentoMenorEdad = monumento[i];
-				} 
-				if (monumentoMayorEdad==null || monumento[i].getAnyosAntiguedad() > monumentoMayorEdad.getAnyosAntiguedad()) {
+				}
+				if (monumentoMayorEdad == null
+						|| monumento[i].getAnyosAntiguedad() > monumentoMayorEdad.getAnyosAntiguedad()) {
 					monumentoMayorEdad = monumento[i];
 				}
 			}
 		}
-		System.out.println("\nCantidad Arquitectos: "+cantidadMonumentos);
-		System.out.println("Promedio edad Monumentos: "+promedioEdadMonumentos);
-		System.out.println("Monumento Más Actual: "+monumentoMenorEdad.getNombre());
-		System.out.println("Monumento Más Antiguo: "+monumentoMayorEdad.getNombre());
-		
+		System.out.println("\nCantidad Monumentos: " + cantidadMonumentos);
+		System.out.println("Promedio edad Monumentos: " + promedioEdadMonumentos);
+		System.out.println("Monumento Más Actual: " + monumentoMenorEdad.getNombre());
+		System.out.println("Monumento Más Antiguo: " + monumentoMayorEdad.getNombre());
+
 	}
+
 	/**
-	 * Metodo que calcula la cantidad de arquitectos, promedio edad de los arquitectos, monumento con la más joven y más menor
+	 * Metodo que calcula la cantidad de edificio, promedio edad de los edificio,
+	 * edificio mas viejo y mas actual
 	 * 
-	 * @param cantidadArquitectos Calcula la cantidad de arquitectos
-	 * @param promedioEdadArquitecto Calcula la edad promedio de los arquitectos
-	 * @param ArquitectoMeyorEdad Muestra al arquitecto más mayor
-	 * @param ArquitectoMenorEdad Muestra el arquitecto más joven
+	 * @param cantidadEdificios  Calcula la cantidad de edificio
+	 * @param totalAnyosEdificio Calcula la edad promedio de los edificio
+	 * @param EdificioMeyorEdad  Muestra al edificio más viejo
+	 * @param EdificioMenorEdad  Muestra el edificio más joven
 	 * 
 	 */
-	public void estadisticasArquitecto () {
-		int cantidadArquitectos = 0;
-		double totalAnyoArquitecto = 0;
-		double promedioEdadArquitecto = 0;
-		Arquitecto ArquitectoMeyorEdad = null;
-		Arquitecto ArquitectoMenorEdad = null;
-		for (int i = 0; i < arquitecto.length; i++) {
-			if (arquitecto[i]!=null) {
-				cantidadArquitectos++;
-				totalAnyoArquitecto += arquitecto[i].getEdad();
-				promedioEdadArquitecto = totalAnyoArquitecto/cantidadArquitectos;
-				
-				if (ArquitectoMeyorEdad==null || arquitecto[i].getEdad() > ArquitectoMeyorEdad.getEdad()) {
-					ArquitectoMeyorEdad = arquitecto[i];
+	public void estadisticasEdificioHistorico() {
+		int cantidadEdificios = 0;
+		double totalAnyosEdificio = 0;
+		double promedioEdadEdificio = 0;
+		EdificioHistorico EdificioMeyorEdad = null;
+		EdificioHistorico EdificioMenorEdad = null;
+		for (int i = 0; i < edificio.length; i++) {
+			if (edificio[i] != null) {
+				cantidadEdificios++;
+				totalAnyosEdificio += edificio[i].getEdad();
+				promedioEdadEdificio = totalAnyosEdificio / cantidadEdificios;
+
+				if (EdificioMeyorEdad == null || edificio[i].getEdad() > EdificioMeyorEdad.getEdad()) {
+					EdificioMeyorEdad = edificio[i];
 				}
-				if (ArquitectoMenorEdad==null || arquitecto[i].getEdad() < ArquitectoMenorEdad.getEdad()) {
-					ArquitectoMenorEdad = arquitecto[i];
+				if (EdificioMenorEdad == null || edificio[i].getEdad() < EdificioMenorEdad.getEdad()) {
+					EdificioMenorEdad = edificio[i];
 				}
 			}
 		}
-		System.out.println("\nCantidad Arquitectos: "+cantidadArquitectos);
-		System.out.println("Promedio Edad Arquitectos: "+promedioEdadArquitecto);
-		System.out.println("Arquitecto Más Joven: "+ArquitectoMenorEdad.getNombre());
-		System.out.println("Arquitecto Más Mayor: "+ArquitectoMeyorEdad.getNombre());
+		System.out.println("\nCantidad edificio: " + cantidadEdificios);
+		System.out.println("Promedio Edad edificio: " + promedioEdadEdificio);
+		System.out.println("Edificio Más Nuevo: " + EdificioMenorEdad.getNombre());
+		System.out.println("Edificio Más Antiguo: " + EdificioMeyorEdad.getNombre());
 	}
 }
-
-
-
-
-

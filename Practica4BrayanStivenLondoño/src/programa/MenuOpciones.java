@@ -1,20 +1,22 @@
 package programa;
 
 import java.util.Scanner;
+
+import altayestilo.AltasYEstilos;
 import clases.Visita;
 import programa.MetodosDePeticionDatos;
 
 public class MenuOpciones {
-	static Scanner input = new Scanner (System.in);
-	static Scanner input2 = new Scanner (System.in);
-	
+	static Scanner input = new Scanner(System.in);
+	static Scanner input2 = new Scanner(System.in);
+
 	public static void main(String[] args) {
-		
-		Visita gestor = new Visita (9,9);
+
+		Visita gestor = new Visita(9, 9);
 		MetodosDePeticionDatos menu = new MetodosDePeticionDatos();
-		MetodosDePeticionDatos.altasIntroducidasDirectamente(gestor);
-	
-		int opcionOperacion =0;
+		AltasYEstilos.altasIntroducidasDirectamente(gestor);
+
+		int opcionOperacion = 0;
 		do {
 			System.out.println("\n============ Menú ============");
 			System.out.println("|1. - Alta                    |");
@@ -29,7 +31,7 @@ public class MenuOpciones {
 			System.out.print("Elige una opción: ");
 			opcionOperacion = input2.nextInt();
 			System.out.println();
-			
+
 			switch (opcionOperacion) {
 			case 1:
 				menu.opcionesAlta(gestor);
@@ -56,11 +58,10 @@ public class MenuOpciones {
 				System.out.println("\nFin del programa, Adios.");
 				break;
 			default:
-					System.out.println("\nOpción incorrecta. Elige otra vez");
+				System.out.println("\nOpción incorrecta. Elige otra vez");
 				break;
-				}
-			} while (opcionOperacion!=8);
-		
+			}
+		} while (opcionOperacion != 8);
 		input2.close();
 	}
 }
