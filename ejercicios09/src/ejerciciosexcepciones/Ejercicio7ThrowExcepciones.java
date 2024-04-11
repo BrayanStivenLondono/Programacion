@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Ejercicio7ThrowExcepciones {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {//NUEVO SCANNER
 		lectura();
 		
 	}

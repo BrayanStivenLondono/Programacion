@@ -14,6 +14,7 @@ public class Ejercicio3ConExcepciones {
 			numero = input.nextInt();
 			System.out.println("El numero es " + numero);
 			input.close();
+			
 		} catch (InputMismatchException e) {
 			System.out.println("Error, formato de numero incorrecto");
 		}

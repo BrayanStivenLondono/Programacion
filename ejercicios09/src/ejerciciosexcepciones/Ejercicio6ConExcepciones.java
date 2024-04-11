@@ -11,7 +11,7 @@ public class Ejercicio6ConExcepciones {
 			metodo1();
 		} catch (NullPointerException e) {
 			division = 1;
-			System.out.println("Mensaje de error "+e.getMessage());
+			System.out.println("Mensaje de error: "+e.getMessage());
 		}
 	}
 

@@ -39,6 +39,7 @@ public class Metodos02 {
 		
 		input.close();
 	}	
+	@SuppressWarnings("resource")
 	public static String[] rellenarDeportistas() {
 		Scanner input = new Scanner (System.in);
 		String[] deportistas = new String [5];
@@ -46,7 +47,6 @@ public class Metodos02 {
 			System.out.println("Introduce el nombre del deportista, deporte "+(i+1)+" : ");
 			deportistas[i] = input.nextLine();
 		}
-		input.close();
 		return deportistas;
 	}
 	public static void mostrarDeportistasDeportes (String[] deportistas) {

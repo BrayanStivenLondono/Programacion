@@ -9,6 +9,6 @@ public class Ejercicio4ConExcepciones {
 			
 		} catch (NumberFormatException e) { //err sale en rojo
 			System.err.println("Cadena no se puede convertir a Int");
-		}
+		} 
 	}
 }

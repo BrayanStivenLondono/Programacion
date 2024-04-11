@@ -14,7 +14,7 @@ public class Ejercicio2ConExcepciones {
 			}
 			
 		} catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println("Error fuera del indice del Array");
+			System.out.println("\nError fuera del indice del Array");
 		} finally {
 			System.out.println("Esto se imprime siempre");
 
