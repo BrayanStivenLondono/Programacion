@@ -194,6 +194,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                     <li>
                       <a class="mobile-menu-item"
+                        href="https://www.eclipse.org/specifications/">Specifications</a>
+                    </li>
+                    <li>
+                      <a class="mobile-menu-item"
                         href="https://www.eclipse.org/contribute/">Contribute</a>
                     </li>
                   </ul>
@@ -532,6 +536,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <a href="https://www.eclipse.org/projects/resources/">Project Resources</a>
                       </li>
                       <li>
+                          <a href="https://www.eclipse.org/specifications/">Specifications</a>
+                      </li>
+                      <li>
                           <a href="https://www.eclipse.org/contribute/">Contribute</a>
                       </li>
                   </ul>
@@ -849,6 +856,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/amp.tgz">AMP</a> project.  Archived: October 2023</p>
         <p><a href="http://archive.eclipse.org/archived_projects/am3.tgz">AM3</a> project.  Archived: November 2012</p>
         <p><a href="http://archive.eclipse.org/archived_projects/antenna.tgz">Antenna</a> project.  Archived: February 2021</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/aperi.tgz">Aperi</a> project.  Archived: March 2009</p>
         <p><a href="http://archive.eclipse.org/archived_projects/apricot.tgz">Apricot</a> project.  Archived: August 2019</p>
         <p><a href="http://archive.eclipse.org/archived_projects/apogee.tgz">Apogee</a> project.  Archived: January 2011</p>
         <p><a href="http://archive.eclipse.org/archived_projects/apogy.tgz">Apogy</a> project.  Archived: October 2023</p>
@@ -966,7 +974,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/remus.tgz">Remus</a> project.  Archived: May 2020</p>
         <p><a href="http://archive.eclipse.org/archived_projects/risev2g.tgz">Risev2g</a> project.  Archived: January 2019</p>
         <p><a href="http://archive.eclipse.org/archived_projects/rtp.tgz">Packaging RTP</a> project.  Archived: March 2021</p>
-        <p><a href="http://archive.eclipse.org/archived_projects/rtsc.tgz">Packaging RTSC/a> project.  Archived: October 2023</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/rtsc.tgz">Packaging RTSC</a> project.  Archived: October 2023</p>
         <p><a href="http://archive.eclipse.org/archived_projects/sapphire.tgz" alt="Sapphire archive" >Sapphire</a> project. Archived: November 2021.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/sbvr.tgz" alt="SBVR archive" >SBVR</a> project. Archived: July 2013.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/scada.tgz" alt="SCADA archive" >SCADA</a> project. Archived: March 2021.</p>
@@ -989,7 +997,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/systemfocus.tgz">Systemfocus</a> project.  Archived: December 2021 </p>
         <p><a href="http://archive.eclipse.org/archived_projects/tangleid.tgz" alt="tangleid archive" >Tangle ID</a> project. Archived: February 2022.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/tanglemktplaces.tgz" alt="tanglemktplaces archive" >Tangle Marketplaces</a> project. Archived: February 2022.</p>
-        <p><a href="http://archive.eclipse.org/archived_projects/texo.tgz">EMFT Texo</a> project.  Archived: September 2023 </p>        
+        <p><a href="http://archive.eclipse.org/archived_projects/texo.tgz">EMFT Texo</a> project.  Archived: September 2023 </p>
         <p><a href="http://archive.eclipse.org/archived_projects/tcs.tgz" alt="TCS archive" >TCS</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/temporality.tgz" alt="Temporality archive" >Temporality</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/thym.tgz" alt="Thym archive" >Thym</a> project. Archived: June 2022.</p>

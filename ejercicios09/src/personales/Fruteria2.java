@@ -19,12 +19,14 @@ public class Fruteria2 {
 			proveedores.add(proveedor);
 		}
 	}
+	
 	public void altaFruta (int codigo, String nombre, String color, String fechaLlegada) {
 		Fruta fruta = new Fruta (codigo, nombre);
 		fruta.setColor(color);
 		fruta.setFechaLlegada(LocalDate.parse(fechaLlegada));
 		frutas.add(fruta);
 	}
+	
 	public boolean existeProveedor (String nombreProveedor) {
 		for (Proveedor proveedor : proveedores) {
 			if (proveedor!=null && proveedor.getNombre().equalsIgnoreCase(nombreProveedor)) {
@@ -33,6 +35,7 @@ public class Fruteria2 {
 		}
 		return false;
 	}
+	
 	public Fruta buscarFruta (String nombre) {
 		for (Fruta fruta : frutas) {
 			if (fruta!=null && fruta.getNombre().equalsIgnoreCase(nombre)) {

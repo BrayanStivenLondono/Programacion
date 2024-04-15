@@ -91,7 +91,7 @@ public class Fruteria {
 	public void asignarProveedor (String nombreFruta, String nombreProveedor) {
 		if (            buscarFruta(nombreFruta)!=null && 
 				buscarProveedor(nombreProveedor)!=null) {
-			Fruta    fruta     = buscarFruta (nombreFruta);
+			Fruta    fruta      = buscarFruta (nombreFruta);
 			Proveedor proveedor = buscarProveedor (nombreProveedor);
 			fruta.setProveedorFruta(proveedor);
 		}

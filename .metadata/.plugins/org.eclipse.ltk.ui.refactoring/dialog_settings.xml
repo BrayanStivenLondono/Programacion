@@ -18,4 +18,8 @@
 		<item value="true" key="leaveUnconstrainedRaw"/>
 		<item value="true" key="assumeCloneReturnsSameType"/>
 	</section>
+	<section name="RefactoringWizard.Clean Up">
+		<item value="803" key="width"/>
+		<item value="510" key="height"/>
+	</section>
 </section>
