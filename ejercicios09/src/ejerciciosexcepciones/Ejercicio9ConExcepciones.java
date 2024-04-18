@@ -16,7 +16,7 @@ public class Ejercicio9ConExcepciones {
 			//la creo
 			Exception excepcion = new Exception ("Numero de dia fuera de rango");
 			//la llevo a la  excepcion de Java
-			throw excepcion;//sin throws S
+			throw excepcion;//throws sin S
 		}
 	}
 
