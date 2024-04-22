@@ -23,11 +23,11 @@ public class CuentaPlanPensiones extends Cuenta {
 	public void setCotizacion(double cotizacion) {
 		this.cotizacion = cotizacion;
 	}
-	
-	//toString con el nuevo y los heredados
+
 	@Override
 	public String toString() {
 		return "CuentaPlanPensiones [cotizacion=" + cotizacion + ", numero=" + numero + ", saldo=" + saldo
 				+ ", interes=" + interes + ", titular=" + titular + "]";
 	}
+	
 }

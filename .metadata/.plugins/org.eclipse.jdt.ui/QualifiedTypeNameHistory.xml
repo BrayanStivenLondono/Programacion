@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ejercicio05.Ejercicio05"/>
-<fullyQualifiedTypeName name="ejercicios07.Metodo07"/>
 <fullyQualifiedTypeName name="ejercicios10.Ejercicio10"/>
 <fullyQualifiedTypeName name="ejercicios16.Ejercicio16"/>
 <fullyQualifiedTypeName name="ejercicio03.Metodo03Bis"/>
@@ -20,9 +18,7 @@
 <fullyQualifiedTypeName name="clases.ManejoArchivo"/>
 <fullyQualifiedTypeName name="clases.Zoo"/>
 <fullyQualifiedTypeName name="clases.Visita"/>
-<fullyQualifiedTypeName name="clases.Monumento"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
-<fullyQualifiedTypeName name="clases.GestorMonumentos"/>
 <fullyQualifiedTypeName name="programa.ProgramaMonumento"/>
 <fullyQualifiedTypeName name="programa.MenuOperaciones"/>
 <fullyQualifiedTypeName name="clases.Estilo"/>
@@ -44,7 +40,6 @@
 <fullyQualifiedTypeName name="ejercicio08_7.Proveedor"/>
 <fullyQualifiedTypeName name="java.util.InvalidPropertiesFormatException"/>
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="clases.Cine"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
@@ -53,11 +48,16 @@
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="clases.Colegio"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="java.util.ServiceConfigurationError"/>
 <fullyQualifiedTypeName name="clases.GestorCuentas"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="clases.GestorMonumentos"/>
+<fullyQualifiedTypeName name="clases.Visitante"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="clases.Monumento"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="clases.Genero"/>
 </qualifiedTypeNameHistroy>

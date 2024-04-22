@@ -10,12 +10,13 @@ public class CuentaCorriente extends Cuenta {
 		
 	}
 
+	
 	@Override
 	public String toString() {
 		return "CuentaCorriente [numero=" + numero + ", saldo=" + saldo + ", interes=" + interes + ", titular="
 				+ titular + "]";
 	}
-	
+
 	public double reintegro (int perras) {
 		this.saldo -= perras;
 		return saldo;
