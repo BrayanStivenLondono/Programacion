@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ejercicios10.Ejercicio10"/>
-<fullyQualifiedTypeName name="ejercicios16.Ejercicio16"/>
-<fullyQualifiedTypeName name="ejercicio03.Metodo03Bis"/>
-<fullyQualifiedTypeName name="parcial1mtd.Ejercicio02"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="ejercicio10.Ejercicio10"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.Void"/>
-<fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
-<fullyQualifiedTypeName name="refactorizar3.OpcionesMenu"/>
 <fullyQualifiedTypeName name="ejercicio05.ProfesorTitular"/>
 <fullyQualifiedTypeName name="clases.TallerVehiculos"/>
 <fullyQualifiedTypeName name="clases.Fruteria"/>
@@ -21,7 +10,6 @@
 <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
 <fullyQualifiedTypeName name="programa.ProgramaMonumento"/>
 <fullyQualifiedTypeName name="programa.MenuOperaciones"/>
-<fullyQualifiedTypeName name="clases.Estilo"/>
 <fullyQualifiedTypeName name="resultadosmediaaleatorios.ResultadoEstadisticas"/>
 <fullyQualifiedTypeName name="refactorizar8_1.MetodosOperacionesAleatorias"/>
 <fullyQualifiedTypeName name="refactorizar9_1.MetodosPeticionGeneradorGraficoTemperatura"/>
@@ -44,7 +32,6 @@
 <fullyQualifiedTypeName name="clases.Cine"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
-<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="clases.Colegio"/>
@@ -53,11 +40,24 @@
 <fullyQualifiedTypeName name="java.util.ServiceConfigurationError"/>
 <fullyQualifiedTypeName name="clases.GestorCuentas"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="clases.GestorMonumentos"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="menus.SubMenu"/>
+<fullyQualifiedTypeName name="menus.PeticionDeDatos"/>
+<fullyQualifiedTypeName name="clases.MonumentoHistorico"/>
+<fullyQualifiedTypeName name="menus.PeticionDatos"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="clases.Estilo"/>
+<fullyQualifiedTypeName name="clases.Arquitecto"/>
+<fullyQualifiedTypeName name="programa.PeticionDatos"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="figuras.Triangulo"/>
+<fullyQualifiedTypeName name="figuras.Circulo"/>
 <fullyQualifiedTypeName name="clases.Visitante"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="clases.Monumento"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="clases.Santuario"/>
+<fullyQualifiedTypeName name="clases.MonumentoArqueologico"/>
+<fullyQualifiedTypeName name="clases.GestorMonumentos"/>
 <fullyQualifiedTypeName name="clases.Genero"/>
 </qualifiedTypeNameHistroy>
