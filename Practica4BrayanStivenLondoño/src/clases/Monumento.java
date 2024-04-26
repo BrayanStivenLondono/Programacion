@@ -8,18 +8,7 @@ public class Monumento {
 	private String disponible;
 	private Estilo estilo;
 
-	/**
-	 * Constructor de la clase Monumento
-	 * 
-	 * @param nombre          El nombre del monumento
-	 * @param ubicacion       Pais donde esta en monumento
-	 * @param anyosAntiguedad Antiguedad del monumento en anyos
-	 * @param material        El material principal del monumento
-	 * @param disponible      Indica si el monumento esta disponible para ser
-	 *                        visitado (si/no)
-	 * @param estilo          El estilo arquitectonico del monumento
-	 * 
-	 */
+
 	public Monumento(String nombre, String ubicacion, int anyosAntiguedad, String material, String disponible,
 			Estilo estilo) {
 		this.nombre = nombre;
