@@ -1,21 +1,19 @@
 package figuras;
 
-public abstract class Circulo  extends FiguraGeometrica{
+public class Circulo extends FiguraGeometrica{
 	private double radio;
-	
-	public Circulo (double radio) {
-		this.nombre = "circulo";
-		this.radio = radio;
+	public Circulo(double radio) {
+		this.nombre="Circulo";
+		this.radio=radio;
 	}
-	
 	@Override
 	public double area() {
-		
-		return 0;
+		return Math.PI*radio*radio;
 	}
-	
+
 	@Override
 	public double perimetro() {
-		return 2*Math.PI;
+		return 2*Math.PI*radio*radio;
 	}
+
 }

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="programa.ProgramaMonumento"/>
-<fullyQualifiedTypeName name="programa.MenuOperaciones"/>
-<fullyQualifiedTypeName name="resultadosmediaaleatorios.ResultadoEstadisticas"/>
-<fullyQualifiedTypeName name="refactorizar8_1.MetodosOperacionesAleatorias"/>
 <fullyQualifiedTypeName name="refactorizar9_1.MetodosPeticionGeneradorGraficoTemperatura"/>
 <fullyQualifiedTypeName name="refactorizar10_1.MetodoSelectorPersonaAleatoria"/>
 <fullyQualifiedTypeName name="ejercicio1_2.OperacionesCalculadora"/>
@@ -50,7 +46,6 @@
 <fullyQualifiedTypeName name="clases.MonumentoHistorico"/>
 <fullyQualifiedTypeName name="programa.PeticionDatos"/>
 <fullyQualifiedTypeName name="clases.GestorMonumentos"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="menus.SubClaseAsignar"/>
 <fullyQualifiedTypeName name="clasemascota.Animal"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="clasemascota.Perro"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="programa.MenuPrincipal"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>

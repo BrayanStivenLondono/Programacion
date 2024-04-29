@@ -6,14 +6,14 @@ import figuras.Triangulo;
 public class FigurasAbstractas {
 
 	public static void main(String[] args) {
+		// Las clases abstractas no pueden ser instanciadas
+		Triangulo triangulo = new Triangulo(20,12);
+		Circulo circulo = new Circulo(2);
 		
-		Triangulo tri = new Triangulo(10,12);
-		Circulo cir = new Circulo(2);
-		System.out.println("Nombre ");
-		System.out.println("Area circulo");
-		
-		System.out.println("Nombre");
-		System.out.println("Area tringulo");
+		System.out.println("Nombre "+circulo.dimeMiNombre());
+		System.out.println("Area circulo "+circulo.area());
+		System.out.println("Nombre "+triangulo.dimeMiNombre());
+		System.out.println("Area triangulo "+triangulo.area());
 	}
 
 }

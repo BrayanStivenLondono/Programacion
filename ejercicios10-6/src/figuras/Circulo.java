@@ -1,21 +1,19 @@
 package figuras;
 
-public abstract class Circulo  extends Figura{
+public class Circulo extends Figura{
 	private double radio;
-	
-	public Circulo (int x, int y, double radio) {
+	public Circulo(int x ,int y, double radio) {
 		super(x,y);
-		this.radio = radio;
+		this.radio=radio;
 	}
-	
+	//estoy obligado a implementar los metodos abstractos
 	@Override
-	public float GetArea() {
-		
+	public float getArea() {
 		return (float)(Math.PI*Math.pow(radio, 2));
 	}
-	
 	@Override
 	public void dibujar() {
-		return 2*Math.PI;
+		System.out.println("Dibujo un circulo");
 	}
+
 }

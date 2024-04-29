@@ -1,30 +1,29 @@
 package figuras;
 
 public abstract class FiguraGeometrica {
-	//una clase es abtracta si al menos tiene un metodo abstracto
+	//una clase es abstracta si al menos tiene un metodo abstracto
 	//no es necesario que todos sus metodos sean abstractos
-	//pero si tiene uno, ya es abstracta
-	
-	//esta clase se puede instanciar
-	//no se puede crear objetos de ella
-	
-	//los metodos abstractos se daclaran con abstract
-	//se indica su nombre, parametros, y no se implementan, solo se declara
-	
-	//las clase hijas que heredan de una abstracta
-	//estan obligadas a implementar
-	
+	//pero si tiene uno, ya tiene que ser abstracta
+	//una clase abstracta no puede ser instanciada
+	//no puedo crear objetos de esa clase
+	//los metodos abstractos se declaran con abstract
+	//se indica su nombre, sus parametros, y no se implementan
+	//solo se declaran
+	//las clases hijas que hereden de una abstracta
+	//estan obligados a implementar
 	String nombre;
-	public FiguraGeometrica()  {
-		this.nombre = nombre;
+	public FiguraGeometrica() {
+		this.nombre="";
 	}
-	public FiguraGeometrica(String nombre)  {
-		this.nombre = nombre;
+	public FiguraGeometrica(String nombre) {
+		this.nombre=nombre;
 	}
+	//dos metodos abstractos, area, perimetro
 	public abstract double area();
 	public abstract double perimetro();
-	
-	public String DimeMiNombre()  {
+	//un metodo no abstracto
+	public String dimeMiNombre() {
 		return nombre;
 	}
+	
 }
