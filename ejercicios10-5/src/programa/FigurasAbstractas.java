@@ -10,10 +10,10 @@ public class FigurasAbstractas {
 		Triangulo triangulo = new Triangulo(20,12);
 		Circulo circulo = new Circulo(2);
 		
-		System.out.println("Nombre "+circulo.dimeMiNombre());
-		System.out.println("Area circulo "+circulo.area());
-		System.out.println("Nombre "+triangulo.dimeMiNombre());
-		System.out.println("Area triangulo "+triangulo.area());
+		System.out.println("Nombre: "+circulo.dimeMiNombre());
+		System.out.println("Area circulo: "+circulo.area());
+		System.out.println("Nombre: "+triangulo.dimeMiNombre());
+		System.out.println("Area triangulo: "+triangulo.area());
 	}
 
 }

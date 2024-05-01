@@ -11,16 +11,20 @@ public abstract class FiguraGeometrica {
 	//solo se declaran
 	//las clases hijas que hereden de una abstracta
 	//estan obligados a implementar
+	
 	String nombre;
 	public FiguraGeometrica() {
-		this.nombre="";
+		this.nombre = "";
 	}
+	
 	public FiguraGeometrica(String nombre) {
-		this.nombre=nombre;
+		this.nombre = nombre;
 	}
+	
 	//dos metodos abstractos, area, perimetro
 	public abstract double area();
 	public abstract double perimetro();
+	
 	//un metodo no abstracto
 	public String dimeMiNombre() {
 		return nombre;
