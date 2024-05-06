@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="refactorizar9_1.MetodosPeticionGeneradorGraficoTemperatura"/>
-<fullyQualifiedTypeName name="refactorizar10_1.MetodoSelectorPersonaAleatoria"/>
-<fullyQualifiedTypeName name="ejercicio1_2.OperacionesCalculadora"/>
-<fullyQualifiedTypeName name="calculos.CalculadorSumaProducto"/>
-<fullyQualifiedTypeName name="ejercicio3_1.MenuOperaciones"/>
-<fullyQualifiedTypeName name="ejercicio4_1.MetodosOperaciones"/>
 <fullyQualifiedTypeName name="ejercicio5_1.MetodosContarCadena"/>
 <fullyQualifiedTypeName name="ejercicio6_1.MetodosOperaciones"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
@@ -40,7 +34,6 @@
 <fullyQualifiedTypeName name="clases.MonumentoArqueologico"/>
 <fullyQualifiedTypeName name="menus.SubConsulta"/>
 <fullyQualifiedTypeName name="clases.Genero"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="clases.Visitante"/>
 <fullyQualifiedTypeName name="clases.Monumento"/>
 <fullyQualifiedTypeName name="clases.MonumentoHistorico"/>
@@ -55,9 +48,16 @@
 <fullyQualifiedTypeName name="clasemascota.Perro"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="programa.MenuPrincipal"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.FieldNameHelper"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>

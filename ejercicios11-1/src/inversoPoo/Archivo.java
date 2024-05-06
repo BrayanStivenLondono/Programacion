@@ -9,67 +9,62 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Archivo {
-	//1. atributo nombreArchivo
+	// 1.- atributos nombreArchivo
 	String nombreArchivo;
-	
+
+	// 2.- constructores
 	public Archivo() {
 		this.nombreArchivo = "";
 	}
-	
+
 	public Archivo(String nombreArchivo) {
 		this.nombreArchivo = nombreArchivo;
 	}
-	
-	public static void verArchivo(String nombreArchivo) {
-		//1. abro lectura
-		try {
-			BufferedReader origen = new BufferedReader(new FileReader(nombreArchivo));
-			String linea ="";
-			
-			//2. recorro linea a linea hasta null y muestro
 
+	// 3.- metodo visualizar archivo
+	public static void visualizarArchivo(String nombreArchivo) {
+		try {
+			// 1.- abro para lectura
+			BufferedReader origen = new BufferedReader(new FileReader(nombreArchivo));
+			// 2.- recorro linea a linea hasta null y muestro
+			String linea = "";
 			linea = origen.readLine();
-			while (linea!=null) {
+			while (linea != null) {
 				System.out.println(linea);
 				linea = origen.readLine();
 			}
-			
-			//3. cierro el fichero
+			// 3.- cierro fichero
 			origen.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("Fichero no existe");
-			System.exit(0);//cierro el programa
+			System.out.println("El fichero no existe");
+			System.exit(0);
 		} catch (IOException e) {
-			System.out.println("Error de entrda salida");
+			System.out.println("Error de entrada salida");
+			System.exit(0);
 		}
 	}
-	//metodo crear archivo invertido
-	public void crearArchivoInvertido() {
-		//1. abri fichero para leer y crar un ArrayList
-				BufferedReader origen = new BufferedReader(new FileReader(NombreArchivo));
-				ArrayList<String> vector = new ArrayList<String>();
-				
-				//2. Leo en el primero y escribo un vector
-				String linea ="";
-				linea = origen.readLine();
-				while (linea!=null) {
-					vector.add(linea);
-					linea = origen.readLine();
-				}
-				
-				//3. cerrar los archivo
-				origen.close();
-				
-				//4. abro el segundo para escibir
-				PrintWriter destino = new PrintWriter (new FileWriter ("", false));
-				
-				//5. leo del vector del reves y escribo
-				
-				for (int i = vector.size()-1; i>=0; i--) {
-					destino.println(vector.get(i));
-				}
-				
-				//6. cerrar el archivo
-				destino.close();
+
+	// 4.- metodo crear archivo invertido
+	public void crearArchivoInvertido() throws IOException {
+		// 1.- abrir el fichero para leer y crear un ArrayList
+		BufferedReader origen = new BufferedReader(new FileReader(nombreArchivo));
+		ArrayList<String> v = new ArrayList<String>();
+		// 2.- leo del primero y escribo en el vector(ArrayList)
+		String linea = "";
+		linea = origen.readLine();
+		while (linea != null) {
+			v.add(linea);
+			linea = origen.readLine();
+		}
+		// 3.- cerrar el archivo
+		origen.close();
+		// 4.- abro el segundo para escribir
+		PrintWriter destino = new PrintWriter(new FileWriter("nombreInvertido.txt", false));
+		// 5.- leo del vector del reves y escribo
+		for (int i = v.size() - 1; i >= 0; i--) {
+			destino.println(v.get(i));
+		}
+		// 6.- cerrar el archivo
+		destino.close();
 	}
 }
