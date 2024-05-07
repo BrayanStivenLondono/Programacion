@@ -10,8 +10,8 @@ public class Libros extends Articulos implements Serializable{
 	private String editorial;//atributos de hija
 	private String autor;
 
-	public Libros(String sbn, String titulo, String editorial, String autor) {
-		super(sbn, titulo);
+	public Libros(String isbn, String titulo, String editorial, String autor) {
+		super(isbn, titulo);
 		this.editorial = editorial;
 		this.autor = autor;
 	}

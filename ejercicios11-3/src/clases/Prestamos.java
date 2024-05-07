@@ -11,16 +11,15 @@ public class Prestamos implements Serializable{
 	private LocalDate fechaPrestamo;
 	private LocalDate fechaDevolucion;
 	private Socios socio;
-	private ArrayList<Articulos> listaArticulos;
+	protected ArrayList<Articulos> listaArticulos;
 	
-	public Prestamos(int idPrestamo, LocalDate fechaPrestamo, LocalDate fechaDevolucion, Socios socio,
-			ArrayList<Articulos> listaArticulo) {
+	public Prestamos(int idPrestamo, LocalDate fechaPrestamo, LocalDate fechaDevolucion, Socios socio) {
 		super();
 		this.idPrestamo = idPrestamo;
 		this.fechaPrestamo = fechaPrestamo;
 		this.fechaDevolucion = fechaDevolucion;
 		this.socio = socio;
-		this.listaArticulos = listaArticulo;
+		this.listaArticulos = new ArrayList<Articulos>();
 		
 	}
 

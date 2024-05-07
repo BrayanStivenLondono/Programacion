@@ -9,8 +9,8 @@ public class Revistas extends Articulos implements Serializable{
 	private  String editorial;
 	private boolean disponible;
 
-	public Revistas(String sbn, String titulo, String editorial, boolean disponible) {
-		super(sbn, titulo);
+	public Revistas(String isbn, String titulo, String editorial, boolean disponible) {
+		super(isbn, titulo);
 		this.editorial = editorial;
 		this.disponible = disponible;
 	}

@@ -6,23 +6,23 @@ public abstract class Articulos implements Comparable<Articulos>, Serializable{
 	
 	private static final long serialVersionUID = 1L;	
 
-	private String sbn;
+	private String isbn;
 	private String titulo;
 	
 	//se calcula en las hijas
 	public abstract int calcularPuntos();
 	
-	public Articulos(String sbn, String titulo) {
-		this.sbn = sbn;
+	public Articulos(String isbn, String titulo) {
+		this.isbn = isbn;
 		this.titulo = titulo;
 	}
 
 	public String getSbn() {
-		return sbn;
+		return isbn;
 	}
 
-	public void setSbn(String sbn) {
-		this.sbn = sbn;
+	public void setSbn(String isbn) {
+		this.isbn = isbn;
 	}
 
 	public String getTitulo() {
@@ -35,7 +35,7 @@ public abstract class Articulos implements Comparable<Articulos>, Serializable{
 
 	@Override
 	public String toString() {
-		return "Articulos [sbn=" + sbn + ", titulo=" + titulo + "]";
+		return "Articulos [isbn=" + isbn + ", titulo=" + titulo + "]";
 	}
 	
 }
