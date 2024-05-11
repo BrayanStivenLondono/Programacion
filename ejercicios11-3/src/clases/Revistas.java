@@ -6,7 +6,8 @@ public class Revistas extends Articulos implements Serializable{
 
 	public final static int PUNTOS = 2;//constante
 	private static final long serialVersionUID = 1L;
-	private  String editorial;
+	
+	private String editorial;
 	private boolean disponible;
 
 	public Revistas(String isbn, String titulo, String editorial, boolean disponible) {
@@ -37,7 +38,7 @@ public class Revistas extends Articulos implements Serializable{
 
 	@Override
 	public int compareTo(Articulos o) {
-		return getSbn().compareTo(o.getSbn());
+		return getIsbn().compareTo(o.getIsbn());
 	}
 	
 	@Override
@@ -47,6 +48,5 @@ public class Revistas extends Articulos implements Serializable{
 		
 		return totalPuntos;
 	}
-
 	
 }

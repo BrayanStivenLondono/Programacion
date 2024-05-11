@@ -44,7 +44,9 @@ public class Biblioteca implements Serializable {
 
 	public void crearPrestamoSocio(int idSocio) {
 		if (socioExiste(idSocio)) {
-			prestamos.add(new Prestamos(prestamos.size() + 1, LocalDate.now(), LocalDate.now().plusDays(DIAS_PRESTAMO),
+			prestamos.add(new Prestamos(prestamos.size() + 1, 
+					LocalDate.now(), //15 dias despues
+					LocalDate.now().plusDays(DIAS_PRESTAMO),
 					devuelveSocio(idSocio)));
 		} else {
 			System.out.println("Socio no existe");
@@ -53,7 +55,8 @@ public class Biblioteca implements Serializable {
 
 	public void introducirArticuloPrestamo(int idPrestamo, String isbn) {
 		if (prestamoExiste(idPrestamo)) {
-			if (articuloExiste(isbn) && !devuelvePrestamo(idPrestamo).comprobarArticulo(isbn)) {
+			if (articuloExiste(isbn) && 
+					!devuelvePrestamo(idPrestamo).comprobarArticulo(isbn)) {
 				devuelvePrestamo(idPrestamo).listaArticulos.add(devuelveArticulo(isbn));
 			} else {
 				System.out.println("El articulo no existe");
@@ -109,7 +112,7 @@ public class Biblioteca implements Serializable {
 
 	public boolean articuloExiste(String isbn) {
 		for (Articulos articulo : articulos) {
-			if (articulo.getSbn().equalsIgnoreCase(isbn)) {
+			if (articulo.getIsbn().equalsIgnoreCase(isbn)) {
 				return true;
 			}
 		}
@@ -118,7 +121,7 @@ public class Biblioteca implements Serializable {
 
 	public Articulos devuelveArticulo(String isbn) {
 		for (Articulos articulo : articulos) {
-			if (articulo.getSbn().equalsIgnoreCase(isbn)) {
+			if (articulo.getIsbn().equalsIgnoreCase(isbn)) {
 				return articulo;
 			}
 		}
@@ -162,8 +165,11 @@ public class Biblioteca implements Serializable {
 			ObjectInputStream lector = new ObjectInputStream(
 					new FileInputStream("src/datos.dat"));
 			socios = (ArrayList<Socios>) lector.readObject();
+			System.out.println(socios);
 			articulos = (ArrayList<Articulos>) lector.readObject();
+			System.out.println(articulos);
 			prestamos = (ArrayList<Prestamos>) lector.readObject();
+			System.out.println(prestamos);
 		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

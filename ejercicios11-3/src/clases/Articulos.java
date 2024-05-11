@@ -2,7 +2,7 @@ package clases;
 
 import java.io.Serializable;
 
-public abstract class Articulos implements Comparable<Articulos>, Serializable{
+public abstract class Articulos implements Comparable<Articulos>, Serializable {
 	
 	private static final long serialVersionUID = 1L;	
 
@@ -17,11 +17,11 @@ public abstract class Articulos implements Comparable<Articulos>, Serializable{
 		this.titulo = titulo;
 	}
 
-	public String getSbn() {
+	public String getIsbn() {
 		return isbn;
 	}
 
-	public void setSbn(String isbn) {
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 

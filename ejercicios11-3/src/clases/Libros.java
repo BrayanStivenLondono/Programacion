@@ -33,7 +33,7 @@ public class Libros extends Articulos implements Serializable{
 	
 	@Override
 	public int compareTo(Articulos o) {
-		return getSbn().compareTo(o.getSbn());
+		return getIsbn().compareTo(o.getIsbn());
 	}
 	
 	@Override

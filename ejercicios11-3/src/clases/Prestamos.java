@@ -14,7 +14,6 @@ public class Prestamos implements Serializable{
 	protected ArrayList<Articulos> listaArticulos;
 	
 	public Prestamos(int idPrestamo, LocalDate fechaPrestamo, LocalDate fechaDevolucion, Socios socio) {
-		super();
 		this.idPrestamo = idPrestamo;
 		this.fechaPrestamo = fechaPrestamo;
 		this.fechaDevolucion = fechaDevolucion;
@@ -62,6 +61,7 @@ public class Prestamos implements Serializable{
 	public void setListaArticulo(ArrayList<Articulos> listaArticulo) {
 		this.listaArticulos = listaArticulo;
 	}
+	
 
 	public int cancularPuntos() {
 		int puntos = 0;
@@ -74,7 +74,7 @@ public class Prestamos implements Serializable{
 	//comprobar que no halla articulos con el mismo isbn
 	public boolean comprobarArticulo(String isbn) {
 		for (Articulos articulos : listaArticulos) {
-			if (articulos.getSbn().equalsIgnoreCase(isbn)) {
+			if (articulos.getIsbn().equalsIgnoreCase(isbn)) {
 				return true;
 			}
 		}

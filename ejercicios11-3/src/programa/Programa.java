@@ -22,6 +22,10 @@ public class Programa {
 		biblio1.introducirArticuloPrestamo(2, "3333");
 		
 		System.out.println();
+		System.out.println("Listo los socios");
+		System.out.println(biblio1.devuelveSocio(1));
+		
+		System.out.println();
 		System.out.println("Listamos articulos");
 		biblio1.listarArticulos();
 		
