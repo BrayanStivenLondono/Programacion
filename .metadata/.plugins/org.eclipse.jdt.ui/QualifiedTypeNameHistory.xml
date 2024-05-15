@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="clases.Genero"/>
-<fullyQualifiedTypeName name="clases.Visitante"/>
-<fullyQualifiedTypeName name="clases.Monumento"/>
-<fullyQualifiedTypeName name="clases.MonumentoHistorico"/>
-<fullyQualifiedTypeName name="programa.PeticionDatos"/>
-<fullyQualifiedTypeName name="clases.GestorMonumentos"/>
-<fullyQualifiedTypeName name="menus.SubClaseAsignar"/>
-<fullyQualifiedTypeName name="clasemascota.Animal"/>
-<fullyQualifiedTypeName name="interfacesmascota.Mascota"/>
-<fullyQualifiedTypeName name="enumeradomascota.Sexo"/>
-<fullyQualifiedTypeName name="clasemascota.Gato"/>
-<fullyQualifiedTypeName name="clasemascota.Perro"/>
-<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-<fullyQualifiedTypeName name="programa.MenuPrincipal"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.FieldNameHelper"/>
 <fullyQualifiedTypeName name="java.util.Vector"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="comparableserialisable.GrupoPensonas"/>
 <fullyQualifiedTypeName name="clases.Articulos"/>
@@ -49,7 +33,6 @@
 <fullyQualifiedTypeName name="clases2.Productos"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="clases2.Supermercado"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="clases2.Clientes"/>
 <fullyQualifiedTypeName name="clases2.ProductosOferta"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="clases.Tienda"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance"/>
+<fullyQualifiedTypeName name="clases.Cliente"/>
+<fullyQualifiedTypeName name="test.FacturaTest"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_ID"/>
+<fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.LinkageError"/>
+<fullyQualifiedTypeName name="copiasvectorraf.ListaProductos"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
 </qualifiedTypeNameHistroy>

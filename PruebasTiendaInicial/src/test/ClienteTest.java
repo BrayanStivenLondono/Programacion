@@ -43,7 +43,7 @@ public class ClienteTest {
 	
 	@Test
 	public void buscarClienteTest2() {//positiva
-		assertEquals(null, tienda.buscarCliente("3333"));
+		assertEquals(null, tienda.buscarCliente("3333"));	
 	}
 	
 }
