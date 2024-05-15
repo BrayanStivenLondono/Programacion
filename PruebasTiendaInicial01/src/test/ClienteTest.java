@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import clases.Cliente;
 import clases.Tienda;
 
@@ -34,7 +33,7 @@ public class ClienteTest {
 	}
 	
 	@Test
-	public void buscarClienteTest() {//negativa
+	public void buscarClienteTest() {//positiva
 		Cliente cliente = new Cliente("222","maria");
 		tienda.getListaClientes().add(cliente);
 		
@@ -42,8 +41,10 @@ public class ClienteTest {
 	}
 	
 	@Test
-	public void buscarClienteTest2() {//positiva
-		assertEquals(null, tienda.buscarCliente("3333"));	
+	public void buscarClienteTest2() {//negativa
+		Cliente cliente = new Cliente("222","maria");
+		assertEquals(cliente, tienda.buscarCliente("2225"));
 	}
+	//los sysos no se pueden probar
 	
 }
