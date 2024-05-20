@@ -44,7 +44,7 @@ public class ListaProductos {
 				f.close();
 			}
 		} catch (IOException e) {
-			System.out.println("No se puede escribir el producot");
+			System.out.println("No se puede escribir el producto");
 			System.exit(0);
 		}
 	}
@@ -57,9 +57,10 @@ public class ListaProductos {
 			boolean fin = false;
 			do {
 				try {
-					codigo = f.readInt();//talves pida castearlo
-					precio = f.readDouble();
+					//talves pida castearlo
+					codigo = f.readInt();
 					System.out.println("Codigo: "+codigo);
+					precio = f.readDouble();
 					System.out.println("Precio: "+precio);
 				
 				} catch (EOFException e) {
