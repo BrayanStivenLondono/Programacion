@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.FieldNameHelper"/>
@@ -31,7 +28,6 @@
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="java.lang.Process"/>
 <fullyQualifiedTypeName name="clases2.Productos"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="clases2.Supermercado"/>
 <fullyQualifiedTypeName name="clases2.Clientes"/>
 <fullyQualifiedTypeName name="clases2.ProductosOferta"/>
@@ -46,7 +42,6 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="clases.Tienda"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
-<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance"/>
 <fullyQualifiedTypeName name="clases.Cliente"/>
 <fullyQualifiedTypeName name="test.FacturaTest"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="copiasvectorraf.ListaProductos"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="clases.Consulta"/>
+<fullyQualifiedTypeName name="clases.Paciente"/>
+<fullyQualifiedTypeName name="clases.Receta"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>

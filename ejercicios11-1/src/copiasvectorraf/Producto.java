@@ -29,7 +29,7 @@ public class Producto {
 		this.precio = precio;
 	}
 	
-	public void rellenarProducto() {
+	public void rellenarProducto() {//buffer antiguo
 		BufferedReader input = new BufferedReader(
 				new InputStreamReader(System.in));
 		boolean error = false;
@@ -48,7 +48,7 @@ public class Producto {
 			} catch (IOException e) {
 				System.out.println("Error de entrada salida");
 				System.exit(0);
-			}
+			} 
 		} while (error);
 	}
 	
@@ -56,6 +56,5 @@ public class Producto {
 		System.out.println("Codigo: "+this.codigo);
 		System.out.println("Precio: "+this.precio);
 	}
-	
 	
 }
