@@ -12,23 +12,23 @@ import clases.Tienda;
 
 public class ClienteTest {
 
-	static Tienda unaTienda = new Tienda();
+	static Tienda tienda = new Tienda();
 	
 	@BeforeAll
 	public static void insertarClientes() {
 		System.out.println("BeforeAll");
 		System.out.println("Insertaremos clientes");
-		unaTienda.altaCliente("11111", "Maria");
-		unaTienda.altaCliente("22222", "Patricia");
-		unaTienda.altaCliente("33333", "Jacinto");
-		unaTienda.listarClientes();
+		tienda.altaCliente("11111", "Maria");
+		tienda.altaCliente("22222", "Patricia");
+		tienda.altaCliente("33333", "Jacinto");
+		tienda.listarClientes();
 		System.out.println();
 	}
 
 	@Test
 	public void existeClienteTest() {
 		System.out.println("Test de existencia de clientes ");
-		boolean resultado = unaTienda.existeCliente("11111");
+		boolean resultado = tienda.existeCliente("11111");
 		assertTrue(resultado);
 		System.out.println("Compruebo assertTrue");
 		System.out.println(resultado);
@@ -38,7 +38,7 @@ public class ClienteTest {
 	@Test
 	public void existeClienteTest2() {
 		System.out.println("Test de existencia de clientes2 ");
-		boolean resultado = unaTienda.existeCliente("44444");
+		boolean resultado = tienda.existeCliente("44444");
 		assertFalse(resultado);
 		System.out.println("Compruebo assertFalse");
 		System.out.println(resultado);
@@ -49,11 +49,11 @@ public class ClienteTest {
 	public void buscarClientesTest() {
 		System.out.println("Test de busqueda de clientes ");
 		Cliente cli = new Cliente("44444", "Andres");
-		unaTienda.getListaClientes().add(cli);
-		assertEquals(cli, unaTienda.buscarCliente("44444"));
+		tienda.getListaClientes().add(cli);
+		assertEquals(cli, tienda.buscarCliente("44444"));
 		System.out.println("Compruebo, muestro primero objeto cli y luego busco cliente 44444");
 		System.out.println(cli);
-		System.out.println(unaTienda.buscarCliente("44444"));
+		System.out.println(tienda.buscarCliente("44444"));
 		System.out.println();
 	}
 
@@ -61,18 +61,18 @@ public class ClienteTest {
 	public void buscarClientesTest2() {
 		System.out.println("Test de busqueda de clientes2 ");
 		Cliente cli = new Cliente("55555", "Olga");
-		unaTienda.getListaClientes().add(cli);
-		assertNotEquals(cli, unaTienda.buscarCliente("555554"));
+		tienda.getListaClientes().add(cli);
+		assertNotEquals(cli, tienda.buscarCliente("555554"));
 		System.out.println("Compruebo, muestro primero objeto cli y luego busco cliente 555554");
 		System.out.println(cli);
-		System.out.println(unaTienda.buscarCliente("555554"));
+		System.out.println(tienda.buscarCliente("555554"));
 		System.out.println();
 	}
 	
 	@AfterAll
 	public static void mostrarClientes() {
 		System.out.println("AfterAll");
-		unaTienda.listarClientes();
+		tienda.listarClientes();
 		System.out.println("Mensaje fin");
 	}
 }

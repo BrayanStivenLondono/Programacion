@@ -8,7 +8,8 @@ import java.sql.PreparedStatement;
 
 public class TrabajoDatos {
 	private Connection conexion = null;
-	PreparedStatement sentencia = null;
+	PreparedStatement sentencia 
+	= null;
 	
 	
 	public void conectar() throws SQLException {
@@ -21,14 +22,13 @@ public class TrabajoDatos {
 	
 	public void seleccionar() throws SQLException {
 		String setenciaSql = "select * from jugador";//consulta
-		
 		sentencia = conexion.prepareStatement(setenciaSql);//la preparo
 		ResultSet resultado = sentencia.executeQuery();//similar a una variable de referencia, pero de ResultSet
 		while (resultado.next()) {
 			System.out.println(
 					resultado.getString(1)+", "+
 					resultado.getString(2)+", "+
-					resultado.getString(3)+", ");
+					resultado.getString(3)+", ");//los tres atributos
 		}
 	}
 }

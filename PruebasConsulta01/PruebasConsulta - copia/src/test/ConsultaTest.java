@@ -5,48 +5,48 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
 import clases.Consulta;
 
 public class ConsultaTest {
-
 	static Consulta consulta = new Consulta();
+
+	//accerNotEquals para las negativas
 	
 	@BeforeAll
-	public static void insertarPacienteRecetas() {
+	public static void insertarPacientesRecetas() {
 		System.out.println("BeforeAll");
-		System.out.println("Insertaremos paciente");
-		consulta.altaPaciente("11111", "Maria");
-		consulta.altaPaciente("22222", "Patricia");
-		consulta.altaPaciente("33333", "Jacinto");
-		consulta.listarPacientes();
-	
+		System.out.println("Insertaremos pacientes");
+		consulta.altaPaciente("pac1", "Maria");
+		consulta.altaPaciente("pac2", "Patricia");
+		consulta.altaPaciente("pac3", "Jacinto");
+		
 		System.out.println("Insertaremos recetas");
-		consulta.altaReceta("Receta1", "");
-		consulta.altaReceta("Receta2", "");
-		consulta.altaReceta("Receta3", "");
-		consulta.listarRecetas();
+		consulta.altaReceta("111","Paracetamol");
+		consulta.altaReceta("222", "Ibuprofeno");
+		consulta.altaReceta("333","Nolotil");
 		System.out.println();
 	}
 
 	@Test
-	public void asignarPacienteRecetasTest() {
+	public void asignarPacienteRecetaTest() {//positiva
 		System.out.println("Asignar Paciente Receta ");
-		consulta.asignarPacienteReceta("11111", "Receta1");
-		assertEquals(consulta.buscarPaciente("11111"), consulta.buscarReceta("Receta1").getPaciente());
-		System.out.println("Compruebo, muestro primero objeto con idPaciente y luego busco Receta con idPaciente");
-		System.out.println(consulta.buscarPaciente("11111"));
-		System.out.println(consulta.buscarReceta("Receta1").getPaciente());
+		consulta.asignarPacienteReceta("pac1", "111");                      //llamo al paciente de la receta
+		assertEquals(consulta.buscarPaciente("pac1"), consulta.buscarReceta("111").getPaciente());
+		
+		System.out.println(consulta.buscarPaciente("pac1"));//opcional
+		System.out.println(consulta.buscarReceta("111").getPaciente());//opcional
 		System.out.println();
 	}
 	
 	@Test
-	public void asignarPacienteRecetasTest2() {
+	public void asignarPacienteRecetaTest2() {//negativa
 		System.out.println("Asignar Paciente Receta2 ");
-		consulta.asignarPacienteReceta("22222", "Receta2");
-		assertNotEquals(consulta.buscarPaciente("22222"), consulta.buscarReceta("Receta1").getPaciente());
-		System.out.println("Compruebo, muestro primero objeto con idPaciente y luego busco Receta con idPaciente");
-		System.out.println(consulta.buscarPaciente("22222"));
-		System.out.println(consulta.buscarReceta("Receta1").getPaciente());
+		consulta.asignarPacienteReceta("pac2", "333");                     //no es el 222
+		assertNotEquals(consulta.buscarPaciente("pac2"), consulta.buscarReceta("222").getPaciente());
+		
+		System.out.println(consulta.buscarPaciente("pac2"));
+		System.out.println(consulta.buscarReceta("222").getPaciente());
 		System.out.println();
 	}
 	
