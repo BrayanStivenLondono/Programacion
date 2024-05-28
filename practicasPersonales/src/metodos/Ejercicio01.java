@@ -39,7 +39,7 @@ public class Ejercicio01 {
 		double media =0;
 		double suma =0;
 		for (int i=0; i<peso.length; i++) {
-			suma = suma+peso[i];
+			suma += peso[i];
 			media = (double)suma/peso.length;
 		}
 		System.out.println("\nLa media es "+media);
@@ -47,7 +47,6 @@ public class Ejercicio01 {
 	}
 	static void maximoVectorPesos (double [] peso) {
 		double maximo =0;
-		
 		for (int i=0; i<peso.length; i++) {
 			if (peso[i]>maximo) {
 				maximo = peso[i];
@@ -58,7 +57,7 @@ public class Ejercicio01 {
 	static void minimoVectorPesos (double [] peso) {
 		double minimo = peso[0];
 		for (int i=0; i<peso.length; i++) {
-			if (peso[i]<minimo) {
+			if (peso[i] < minimo) {
 				minimo = peso[i];
 			}
 		}
@@ -77,7 +76,7 @@ public class Ejercicio01 {
 	static void cantidadPesosMenores (double [] peso, double numero) {
 		double contadorMenor =0;
 		for (int i=0; i<peso.length; i++) {
-			if (peso[i]<numero) {
+			if (peso[i] < numero) {
 				contadorMenor++;
 			}
 		}

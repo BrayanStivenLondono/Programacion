@@ -25,6 +25,7 @@ public class Ejercicio03 {
 			}
 			System.out.println();
 		}
+		System.out.println();
 		System.out.println("Ordenada");
 		Ejercicio03.ordenar(matriz);
 		for (int i=0; i<matriz.length; i++) {
@@ -35,20 +36,21 @@ public class Ejercicio03 {
 		
 		input.close();
 	}
+	
 	static void ordenar (int[][] matriz) {
 		for (int i=0; i<matriz.length; i++) {
 			for (int j=0; j<matriz[i].length; j++) {
 				for (int k=0; k<matriz.length; k++) {
 					for (int l=0; l<matriz[k].length; l++) {
-						if (matriz[i][j]<matriz[k][l]) {
-							int aux     = matriz[i][j];
-							matriz[i][j]= matriz[k][l];
-							matriz[k][l]= aux;
+						
+						if (matriz[i][j] < matriz[k][l]) {
+							int aux      = matriz[i][j];
+						    matriz[i][j] = matriz[k][l];
+							matriz[k][l] = aux;
 						}
 					}
 				}
 			}
 		}
 	}
-
 }

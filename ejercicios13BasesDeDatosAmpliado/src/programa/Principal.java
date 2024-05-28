@@ -24,16 +24,20 @@ public class Principal {
 				System.out.println(pers);
 			}
 			System.out.println("-----------------------------------------------------------------------");
+			
 			// UPDATE
 			System.out.println("Actualizamos primer apellido de la persona ");
 			crud.actualizarPrimerApellidoPersona(persona1);
 			persona1.setPrimerApellido("Apellido nuevo");
+			
 			System.out.println("Mostramos el apellido actualizado " + persona1);
 			System.out.println("-----------------------------------------------------------------------");
+			
 			// READ (SOLO UNO)
 			Persona tempPersona2 = crud.recuperamosPersona(2);
 			System.out.println("Recuperamos persona2 de la BD " + tempPersona2);
 			System.out.println("-----------------------------------------------------------------------");
+			
 			// DELETE
 			crud.borramosPersona(2);
 			System.out.println("Borramos persona2 de la BD ");
@@ -46,8 +50,7 @@ public class Principal {
 			}
 			System.out.println("-----------------------------------------------------------------------");
 			// DELETE
-			crud.borramosTodosRegistros();
-			System.out.println("Borramos todos los registros de la BD. Tabla Personas");
+			
 		} catch (SQLException e) {
 			System.out.println("Ha ocurrido una excepcion " + e.getMessage());
 		}

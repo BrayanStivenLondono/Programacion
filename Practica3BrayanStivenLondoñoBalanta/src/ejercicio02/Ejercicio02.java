@@ -41,14 +41,18 @@ public class Ejercicio02 {
 			System.out.println("El superheroe "+heroe[i].toUpperCase()+" mide "+altura[i]+" y su archienemigo es "+enemigo[i].toUpperCase());
 		}
 	}
-	static void mostrarSuperheroeMasAlto (String [] heroe, double [] altura) {
-		double mayor =0;
-		for (int i=0; i<altura.length; i++) {
-			if (altura[i]>mayor) {
-				mayor = altura[i];
-			}
-		}
-		System.out.println("El superheroe mas alto es "+mayor);
-	}
+	
+	public static void mostrarSuperheroeMasAlto(String[] heroe, double[] altura) {
+        double maxAltura = altura[0];
+        int indiceAltura = 0;
 
+        for (int i = 1; i < altura.length; i++) {
+            if (altura[i] > maxAltura) {
+                maxAltura = altura[i];
+                indiceAltura = i;
+            }
+        }
+
+        System.out.println("El superhéroe más alto es " + heroe[indiceAltura] + " con una altura de " + maxAltura + " m");
+    }
 }

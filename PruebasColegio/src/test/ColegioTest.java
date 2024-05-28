@@ -10,16 +10,17 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import clases.Colegio;
-import clases.Profesor;
 
 public class ColegioTest {
-static Colegio cole = new Colegio();
+	
+	static Colegio cole = new Colegio();
 	
 	@BeforeAll
 	public static void insertarProfesoresAsignaturas() {
 		cole.altaAsignatura("asi1", "Español");
 		cole.altaAsignatura("asi2", "Ingles");
 		cole.altaAsignatura("asi3", "Arte");
+		//
 		cole.altaProfesor("Profe1", "Juan");
 		cole.altaProfesor("Profe2", "Maria");
 		cole.altaProfesor("Profe3", "Luis");

@@ -86,7 +86,7 @@ public class OperacionesCrud {
 	public void insertamosPersona(Persona persona) throws SQLException {
 		Connection con=null;
 		PreparedStatement ps=null;
-		con=Conexion.getConnection();
+		con = Conexion.getConnection();
 		if (con == null) {
 			System.out.println("Error de conexion, " + "comprueba que el servidor esta en marcha");
 			return;

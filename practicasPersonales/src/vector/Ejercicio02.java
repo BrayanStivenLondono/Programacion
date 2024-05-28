@@ -1,5 +1,6 @@
 package vector;
 
+import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 public class Ejercicio02 {
@@ -17,6 +18,7 @@ public class Ejercicio02 {
 		for (int i = 0; i < caracteres.length; i++) {
 			System.out.print(caracteres[i] + " ");
 		}
+		
 		// ordenar
 		ordenar(caracteres);
 		System.out.println();
@@ -27,9 +29,9 @@ public class Ejercicio02 {
 		input.close();
 	}
 
-	private static void ordenar(char[] array) {//ordena numeros de menor a mayor
+	public static void ordenar(char[] array) {//ordena numeros de menor a mayor
 		for (int i=0; i<array.length-1; i++) {
-			for (int j=i+1; j<array.length; j++) {
+			for (int j = i+1; j<array.length; j++) {
 				if (array[j] > array[i]) {//(>) mayor a menor. (<) menor a mayor
 					char aux = array[i];
 					array[i] = array[j];

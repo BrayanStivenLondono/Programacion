@@ -28,7 +28,7 @@ public class Producto {
 	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
-	
+
 	public void rellenarProducto() {//buffer antiguo
 		BufferedReader input = new BufferedReader(
 				new InputStreamReader(System.in));

@@ -44,7 +44,7 @@ public class TrabajandoConDatos {
 		 sentencia.setString(2, plataforma);
 		 sentencia.setString(3, genero);
 		 sentencia.setFloat (4, precio);
-		 sentencia.executeUpdate();//executeQuery (coge), executeUpdate (actaliza)
+		 sentencia.executeUpdate();//executeQuery (select), executeUpdate (actaliza)
 	}
 	
 	public void actualizar(String nombre, String plataforma, 

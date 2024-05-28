@@ -42,6 +42,8 @@ public class Ejercicio02 {
 		input.close();
 		System.out.println("Fin del programa, adios");
 	}
+	
+	
 	public static String[] rellenarVector() {
 		String[] cadena = new String [3];
 		for (int i=0; i<cadena.length; i++) {
@@ -50,6 +52,8 @@ public class Ejercicio02 {
 		}
 		return cadena;
 	}
+	
+	
 	public static void contarAcentos (String[] cad) {
 		int vocalAcento =0;
 		for (int i=0; i<cad.length; i++) {//recorre frases
@@ -63,6 +67,8 @@ public class Ejercicio02 {
 		System.out.println("La cantidad de acentos es: "+vocalAcento);
 		vocalAcento =0;//para empieza otra vez, en cada frase
 	}
+	
+	
 	public static void visualizarPalabras (String[] cadena) {
 		System.out.println("Elige una frase");
 		int elegida = input.nextInt();
@@ -79,13 +85,14 @@ public class Ejercicio02 {
 			System.out.println(cadenaFinal[i]+" ");
 		}
 	}
+	
 	public static void fraseMaslarga (String[] cadena) {
 		int cadenaLarga =0;   //String ="";
 		int posicion =0;  //dar valor para que funciones
 		for (int i=0; i<cadena.length; i++) {
-			if (cadena[i].length()>cadenaLarga) {  //String.lenght
+			if (cadena[i].length() > cadenaLarga) {  //String.lenght
 				cadenaLarga = cadena[i].length(); //sin lenght
-				posicion =i;   //dice donde esta (exam;Superherore)
+				posicion = i;   //dice donde esta (exam;Superherore)
 			}		
 		}//con String funciona bien
 		System.out.println("La cadena mas larga es: "+cadenaLarga);

@@ -47,7 +47,7 @@ public class Ejercicio01 {
 		System.out.println("Sus palabras y letras son");
 		for (int i=0; i<cantidadDeEspacios+1; i++) {
 			String[] partes = frases[componente].split(" ");
-			System.out.println(partes[i]+", "+partes[i].length()+ " letras");
+			System.out.println(partes[i]+", "+partes[i].length()+" letras");
 		}//syso                   casa            4 letras
 	}
 }

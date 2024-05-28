@@ -46,7 +46,7 @@ public class Ejercicio01 {
 		for (int i=0; i<matriz.length; i++) {
 			for (int j=0; j<matriz[i].length; j++) {
 				if (matriz[i][j]%2==0) {
-					if (matriz[i][j]>maximo) {//par mas alto
+					if (matriz[i][j] > maximo) {//par mas alto
 						maximo = matriz[i][j];
 						posicionI = i;
 						posicionJ = j;
@@ -66,7 +66,7 @@ public class Ejercicio01 {
 		for (int i=0; i<matriz.length; i++) {
 			for (int j=0; j<matriz[i].length; j++) {
 				if (matriz[i][j]%2!=0) {//impar pas bajo
-					if (matriz[i][j]<minimo) {
+					if (matriz[i][j] < minimo) {
 						minimo = matriz[i][j];
 						posicionI = i;
 						posicionJ = j;
