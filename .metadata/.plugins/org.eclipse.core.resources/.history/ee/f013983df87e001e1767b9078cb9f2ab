@@ -1,0 +1,46 @@
+package ejercicios05;
+
+import java.util.Scanner;
+
+public class Ejercicio28 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// TODO Auto-generated method stub
+		
+		int numero ;
+		int contador = 0;
+		int menor =0;
+		int total =0;
+		int mayor =0;
+		
+		do {
+			System.out.println("Introduce varios numero (0 para acabar)");
+			numero = input.nextInt();
+			
+			contador=contador++;
+			
+			total=total+numero;
+			
+			
+		} while (numero>0); 
+		System.out.println("El menor es " +menor);
+		System.out.println("El mayor es " +mayor);
+		System.out.println("El total es " +(numero+contador-1));
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		input.close();
+
+	}
+
+}

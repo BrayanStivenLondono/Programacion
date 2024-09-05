@@ -29,7 +29,12 @@ public class Ejercicio14 {
 	}
 	static void mostrarDatos (String [][] matriz) {
 		for (int i=0; i<5; i++) {
+<<<<<<< HEAD
 			System.out.println("El/la estudiante "+matriz[0][i]+" "+ "tiene "+matriz[1][i]+" años");
+=======
+			System.out.println("El/la estudiante "+matriz[0][i]+" "
+					+ "tiene "+matriz[1][i]+" años");
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		}
 	}
 	static void estudianteMayor (String [][] matriz) {

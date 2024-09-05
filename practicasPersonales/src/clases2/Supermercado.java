@@ -54,7 +54,11 @@ public class Supermercado implements Serializable {
 	
 	public void mostarVentasCliente(int codigoCliente) {
 		for (Ventas venta : ventas) {
+<<<<<<< HEAD
 			if (venta.getCliente().getCodigoCliente()==codigoCliente) {
+=======
+			if (venta.getCliente().equals(buscarCliente(codigoCliente))) {
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 				System.out.println(venta);
 			}
 		}

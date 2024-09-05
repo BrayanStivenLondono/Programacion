@@ -17,7 +17,11 @@ public class Ejercicio04 {
 		
 		//imp. Math.Random = (fin-inicio+1)+inicio
 		for (int i=0; i<letras.length; i++) {
+<<<<<<< HEAD
 			letras[i] = (char)((Math.random()) * ('z'-'a'+1)+'a');
+=======
+			letras[i] = (char)((Math.random())*('z'-'a'+1)+'a');
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		}
 		System.out.println();
 		Ejercicio03.cambiarLetra(letras);

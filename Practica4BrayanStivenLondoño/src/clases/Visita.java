@@ -162,7 +162,11 @@ public class Visita {
 	public void cambiarNombreMonumento(String monumentoACambiar, String nuevoNombreMonumento) {
 		for (int i = 0; i < monumento.length; i++) {
 			if (monumento[i] != null) {
+<<<<<<< HEAD
 				if (monumento[i].getNombre().equalsIgnoreCase(monumentoACambiar)) {
+=======
+				if (monumento[i].getNombre().equals(monumentoACambiar)) {
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 					monumento[i].setNombre(nuevoNombreMonumento);
 				}
 			}

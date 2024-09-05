@@ -4,7 +4,10 @@ public class Trabajador extends Personal {
 
 	private static final long serialVersionUID = 3915527913264256570L;
 	public final static double INCENTIVO = 100;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 	private String categoria;
 
 	public Trabajador(String dni, String nombre, String categoria) {

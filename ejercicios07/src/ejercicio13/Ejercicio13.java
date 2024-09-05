@@ -25,6 +25,10 @@ public class Ejercicio13 {
 		int contadorApariciones = 0;
 		for (int i = 0; i < matriz.length; i++) {
 			for (int j = 0; j < matriz[i].length; j++) {
+<<<<<<< HEAD
+=======
+				//si la celda contiene el numero
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 				if (matriz[i][j]==numero) {
 					contadorApariciones++;
 					System.out.println("["+i+"]["+j+"]");

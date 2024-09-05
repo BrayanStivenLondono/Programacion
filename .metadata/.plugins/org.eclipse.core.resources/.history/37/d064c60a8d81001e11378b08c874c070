@@ -1,0 +1,28 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For04 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// Pedir numeroes reales y sumarlos
+
+		double suma=0; // double es real
+		
+		for (int i=1; i<10; i++) {
+			System.out.println("Dame un numero");
+			double numero = input.nextDouble();
+			
+			suma = suma+numero; // ACOMULADOR
+		}
+		System.out.println("La suma es " +suma);
+		
+		
+		
+		
+		
+		input.close();
+	}
+
+}

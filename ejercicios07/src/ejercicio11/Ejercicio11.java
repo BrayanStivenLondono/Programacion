@@ -23,7 +23,11 @@ public class Ejercicio11 {
 		int mayor = matriz[0][0];
 		int menor = matriz[0][0];
 		int suma = 0;
+<<<<<<< HEAD
 		int producto = 1;
+=======
+		int producto =1;
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		
 		for (int i=0; i<matriz.length; i++) {
 			for (int j=0; j<matriz[i].length; j++) {
@@ -33,7 +37,10 @@ public class Ejercicio11 {
 				if (matriz[i][j]>mayor) {
 					mayor = matriz[i][j];
 				}
+<<<<<<< HEAD
 				
+=======
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 				suma += matriz[i][j];
 				producto *= matriz[i][j];
 				

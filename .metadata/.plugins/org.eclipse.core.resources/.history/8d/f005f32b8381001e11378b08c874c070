@@ -1,0 +1,20 @@
+package mas;
+
+
+public class For03 {
+
+	public static void main(String[] args) {
+		
+		int suma =0;
+		
+		for (int i=1; i<=100; i++) {
+			suma +=i;
+			
+		}
+		System.out.println("Lasuma es: " + suma);
+		
+		
+
+	}
+
+}

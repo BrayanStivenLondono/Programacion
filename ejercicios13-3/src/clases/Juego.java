@@ -162,6 +162,11 @@ public class Juego implements Serializable {
 		sentencia.execute();
 	}
 	
+<<<<<<< HEAD
+=======
+	
+	//fichero secuenciles
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 	public void guardarDatos() {
 		try {
 			ObjectOutputStream escritor = new ObjectOutputStream(new FileOutputStream(new File("datos.dat")));
@@ -180,17 +185,24 @@ public class Juego implements Serializable {
 		try (RandomAccessFile f = new RandomAccessFile("Nombre.txt", "rw")){
 			for (Personaje personaje : listaPersonajes) {
 				if (personaje instanceof Cj) {
+<<<<<<< HEAD
 					f.seek(f.length());
 					f.writeUTF(personaje.getNombre());
 				}
 			}
 			f.close();
+=======
+					f.writeUTF(personaje.getNombre());
+				}
+			}
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 	
 	public void guardarDatosConRaf() {
+<<<<<<< HEAD
 		try {
 			RandomAccessFile f = new RandomAccessFile("datos.dat", "rw");
 			
@@ -247,6 +259,50 @@ public class Juego implements Serializable {
 			System.out.println("["+vectorNombres[i]+"]"+"["+vectorId[i]+"]");
 		}
 	}
+=======
+		try (RandomAccessFile f = new RandomAccessFile("datos.dat", "rw")) {
+            // Guardar lista de partidas
+			//Partida(nombre, recompensa, cj)
+			
+            f.writeInt(listaPartidas.size());
+            
+            for (Partida partida : listaPartidas) {
+                f.writeUTF(partida.getNombre());
+                f.writeInt(partida.getRecompensa());
+                
+               Cj cj = partida.getCj();
+                f.writeInt(cj.getId());
+                f.writeUTF(cj.getNombre());
+                f.writeLong(cj.getFechaNacimiento().getTime());
+                
+                f.writeInt(partida.getListaRelleno().size());
+            }
+
+            //PERSONAJES
+            // Guardar lista de personajes
+            f.writeInt(listaPersonajes.size());
+            
+            for (Personaje personaje : listaPersonajes) {
+              if (personaje instanceof Cj) {
+				f.writeInt(personaje.getId());
+				f.writeUTF(personaje.getNombre());
+				f.writeLong(((Cj) personaje).getFechaNacimiento().getTime());
+				}
+              
+              if (personaje instanceof Relleno) {
+				f.writeInt(personaje.getId());
+				f.writeUTF(personaje.getNombre());
+				f.writeInt(((Relleno) personaje).getCantidad_dinero());
+				}
+            }
+            
+            f.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+	
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 	
 	//secuenciales
 	@SuppressWarnings({ "unchecked"})

@@ -1,0 +1,46 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For01 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Introduce una cadena");
+		String cadena = input.nextLine();
+		
+		int contadorA=0;
+		int contadorE=0;
+		int contadorI=0;
+		int contadorO=0;
+		int contadorU=0;
+
+		for (int i=0; i<cadena.length(); i++) {
+			char caracter = cadena.charAt(i);
+			
+			if (caracter=='a') {
+				contadorA++;
+			} else if (caracter=='e') {
+				contadorE++;
+			} else if (caracter=='i') {
+				contadorI++;
+			} else if (caracter=='o') {
+				contadorO++;
+			} else if (caracter=='u') {
+				contadorU++;
+			}
+		
+		}
+		System.out.println("Cantidad A "+ (int)(contadorA));
+		System.out.println("Cantidad E "+ (int)(contadorE));
+		System.out.println("Cantidad I "+ (int)(contadorI));
+		System.out.println("Cantidad O "+ (int)(contadorO));
+		System.out.println("Cantidad O "+ (int)(contadorU));
+
+		
+		
+		
+		input.close();
+	}
+
+}

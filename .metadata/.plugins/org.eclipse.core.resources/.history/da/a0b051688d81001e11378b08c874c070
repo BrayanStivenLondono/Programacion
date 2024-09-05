@@ -1,0 +1,25 @@
+package mas;
+
+import java.util.Scanner;
+
+public class For04 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// pedir 10 numeros reales (doubles)
+				// cuando se cuantos tengo que pedir y no tengo que poner condiciones
+				// bucle for
+				double suma = 0;
+				for (int i = 0; i < 10; i++) {
+					System.out.println("Dame un numero");
+					double numero = input.nextDouble();
+					// almacenar el resultado
+					// sumando el dato -> acumulador
+					suma = suma + numero; // acumulador
+				}
+				System.out.println("La suma es " + suma);
+		
+		input.close();
+	}
+
+}

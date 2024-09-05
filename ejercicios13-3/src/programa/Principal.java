@@ -26,6 +26,7 @@ public class Principal {
 		
 		game.registrarRellenoPartida("Pedro", "Robo");
 		game.registrarRellenoPartida("Cristian", "Rescate");
+<<<<<<< HEAD
 		game.listarPartidas();
 		
 		System.out.println();
@@ -35,6 +36,11 @@ public class Principal {
 		System.out.println();
 		System.out.println("Vector CJ");
 		game.vectorDJs();
+=======
+		
+		System.out.println("Guardo las datos en fichero RAF");
+		game.guardarNombreCj();
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		
 		try {
 			System.out.println("Conecto con la base");

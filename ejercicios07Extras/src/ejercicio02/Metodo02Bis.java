@@ -18,7 +18,11 @@ public class Metodo02Bis {
 	}
 	public static void rellenarArrayAleatorio (int [] vector, int a, int b) {
 		for (int i=0; i<vector.length; i++) {
+<<<<<<< HEAD
 			vector[i] = (int) Math.floor(Math.random()*(a-b)+b);
+=======
+			vector[i] = (int)Math.floor(Math.random()*(a-b)+b);
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		}
 	}
 	

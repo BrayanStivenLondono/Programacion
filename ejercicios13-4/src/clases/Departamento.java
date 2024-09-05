@@ -68,7 +68,11 @@ public class Departamento implements Comparable<Departamento>, Serializable {
 	public String toString() {
 		return "Departamento [codigo=" + codigo + ", nombre=" + nombre + ", jefe=" + jefe + 
 				", listaTrabajadores="+ listaTrabajadores + 
+<<<<<<< HEAD
 				", salarioTotal=" + calcularSalarioTotal() + "]";
+=======
+				",salarioTotal=" + calcularSalarioTotal() + "]";
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 	}
 
 }

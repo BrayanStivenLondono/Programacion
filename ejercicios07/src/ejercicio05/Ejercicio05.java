@@ -46,7 +46,11 @@ public class Ejercicio05 {
 	     	}
 		
 		}
+<<<<<<< HEAD
 		System.out.println("El mayor es mayor "+mayor);
+=======
+		System.out.println("El mayor es "+mayor);
+>>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 		System.out.println("El menor es "+menor);
 		System.out.println("Media positivos "+(double)sumaPositivos/contadorPositivos);
 		System.out.println("Media negativos "+(double)sumaNegativos/contadorNegativos);

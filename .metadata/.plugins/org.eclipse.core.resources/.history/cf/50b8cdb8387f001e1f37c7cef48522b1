@@ -1,0 +1,29 @@
+package ejercicios05;
+
+import java.util.Scanner;
+
+public class Ejercicio32 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		// Crea una aplicación que dibuje una escalera de números, siendo cada línea números empezando en uno y acabando en el número de la línea.
+		
+		System.out.println("Introduce un numero");
+		int numero=input.nextInt();
+		
+		for(int i=0;i>i;i++ ) {
+				System.out.println(i);
+				
+				
+			}
+		
+			System.out.println();
+	
+		
+		
+		input.close();
+		
+
+	}
+
+}
