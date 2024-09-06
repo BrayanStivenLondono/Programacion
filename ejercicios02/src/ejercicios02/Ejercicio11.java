@@ -8,7 +8,7 @@ public class Ejercicio11 {
 		Scanner input = new Scanner (System.in);
 		
 		System.out.println("Introduce una cadena");
-		String cadena=input.nextLine();
+		String cadena = input.nextLine();
 		
 		//crear una variable booleana (true/false)
 		//que comprueba si tiene vocales

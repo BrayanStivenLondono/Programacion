@@ -12,11 +12,8 @@ public class Ejercicio01 {
 		entero = Ejercicio01.pedi10Numeros();
 		
 		// lo muestro de manera inversa
-<<<<<<< HEAD
 		for (int i = entero.length-1; i >= 0; i--) {//cadena inversa
-=======
 		for (int i=entero.length-1; i>=0; i--) {//cadena inversa
->>>>>>> 0e45588ade652ad7ddec7063ecc6cbcfe20178a8
 			System.out.print(entero[i]+" ");
 		}
 	}

@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\DAW-1\Programcion Java\ejercicios08-2"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios08-1"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios08"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios07Extras"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios07Basico"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios07"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios06"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios05BuclesExtra"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios05"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios04"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios03"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios02"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios01"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios00"/>
+		<item value="C:\DAW-1\Programcion Java\ejercicios11"/>
+	</list>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
 		</list>
